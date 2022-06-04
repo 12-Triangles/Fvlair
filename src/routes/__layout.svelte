@@ -13,6 +13,15 @@
 </script>
 
 <style>
+  :global(body) {
+    margin: 0px;
+    border-top: 8px solid #ff8438;
+    background-color: #6f1f8f;
+    color: #222222;
+    /* font-size: 21px; */
+    font-family: 'Inter', sans-serif;
+  }
+
   .slot {
     max-width: 96.25%;
     width: 2000px;
@@ -69,6 +78,13 @@
     padding: 12px;
     display: flex;
     flex-direction: column;
+  }
+
+  .copyright {
+    padding: 16px 16px 16px;
+    color: white;
+    text-align: center;
+    font-size: 12px;
   }
 </style>
 
