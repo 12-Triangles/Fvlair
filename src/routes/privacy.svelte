@@ -47,9 +47,6 @@
     line-height: 2;
     max-width: 740px;
   }
-
-  .jump {
-  }
 </style>
 
 <div>

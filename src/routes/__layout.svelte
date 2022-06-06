@@ -1,15 +1,15 @@
 <script lang="ts">
   // import MediaQuery from './MediaQuery.svelte';
-  import { onMount, beforeUpdate } from 'svelte'
+  import { beforeUpdate } from 'svelte'
   //   import { MetaTags } from 'svelte-meta-tags'
-  //   export let isHome = false
-  //   beforeUpdate(() => {
-  //     if (location !== undefined) {
-  //       isHome =
-  //         location.href === 'http://localhost:3000/' ||
-  //         location.href === 'https://ionhipster.com/'
-  //     }
-  //   })
+  export let atDocs = false
+  beforeUpdate(() => {
+    if (location !== undefined) {
+      atDocs =
+        location.href === 'http://localhost:1234/support' ||
+        location.href === 'https://sayitwithflair.com/support'
+    }
+  })
 </script>
 
 <style>
@@ -240,13 +240,32 @@
     </div>
   {/if}
 </MediaQuery> -->
-<div class="nav-bar">
-  <a href="https://12triangles.com" class="home-button">12 Triangles</a>
-  <div class="links">
-    <a class="link" href="https://sayitwithflair.com">Flair</a>
-    <a class="link" href="https://ionhipster.com">Blog</a>
+{#if !atDocs}
+  <div class="nav-bar">
+    <div class="links">
+      <a href="https://12triangles.com" class="home-button">12 Triangles</a>
+      <a class="link" href="/">Flair</a>
+    </div>
+    <!-- <div class="spacer">&nbsp;</div>
+    <div class="spacer">&nbsp;</div> -->
+    <div class="links">
+      <a class="link" href="/support">Docs</a>
+      <a class="link" href="https://ionhipster.com">Blog</a>
+    </div>
   </div>
-</div>
+{/if}
+{#if atDocs}
+  <div class="nav-bar">
+    <div class="links">
+      <a href="https://12triangles.com" class="home-button">12 Triangles</a>
+      <a class="link" href="/support">Flair Docs</a>
+    </div>
+    <div class="links">
+      <a class="link" href="/">Home</a>
+
+    </div>
+  </div>
+{/if}
 <br />
 <br />
 <br />
