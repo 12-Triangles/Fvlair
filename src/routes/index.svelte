@@ -11,6 +11,13 @@
     font-family: 'Inter', sans-serif;
   }
 
+  :global(.big-logo) {
+    margin: 32px auto;
+    width: 160px;
+    height: 160px;
+    filter: drop-shadow(32px 32px 80px #00000010);
+  }
+
   .card-container {
     display: flex;
     flex-direction: column;
@@ -55,12 +62,6 @@
     filter: blur(150px);
   }
 
-  .big-logo {
-    margin: 32px auto;
-    max-width: 200px;
-    filter: drop-shadow(32px 32px 80px #00000010);
-  }
-
   .app-stores {
     display: flex;
     flex-wrap: wrap;
@@ -71,8 +72,8 @@
   }
 
   .store {
-    min-width: 200px;
-    max-width: 200px;
+    width: 200px;
+    height: 60px;
     margin: 0px auto 8px;
   }
 
@@ -101,47 +102,14 @@
   }
 
   .card {
-    width: 96.25%;
-    max-width: 480px;
-    height: auto;
-  }
-
-  .quick-links-flair {
-    display: flex;
-    font-weight: 700;
-    text-transform: uppercase;
-    font-size: 12px;
-    margin: 0px auto 32px;
-    max-width: 640px;
-    align-items: center;
-    justify-content: space-evenly;
-    color: white;
+    max-width: 96.25%;
+    width: 480px;
+    height: 256px;
   }
 
   a {
     text-decoration: none;
     color: inherit;
-  }
-
-  .contact {
-    color: white;
-    font-weight: 700;
-    text-transform: uppercase;
-    font-size: 12px;
-    margin: auto;
-    margin-top: 20px;
-    align-items: center;
-    justify-content: space-evenly;
-  }
-
-  .small-logo {
-    display: flex;
-    justify-content: center;
-    height: 66px;
-    width: 60px;
-    margin: auto;
-    padding: 0px 16px;
-    color: white;
   }
 
   @media (max-width: 500px) {
@@ -161,7 +129,6 @@
   <div class="right-bokeh" />
 </div>
 <div class="card-container">
-
   <a href="/">
     <img class="big-logo" src="flairLogo.svg" alt="Flair Logo" />
   </a>
@@ -174,12 +141,18 @@
   <div class="app-stores">
     <a
       href="https://apps.apple.com/us/app/flair-sticker-design-kit/id1578105526">
-      <img class="store" src="app-store.png" alt="" />
+      <img
+        class="store apple"
+        src="app-store.png"
+        alt="Flair: Sticker Design Maker" />
     </a>
     <br />
     <a
       href="https://play.google.com/store/apps/details?id=com.triangles12.flairapp">
-      <img class="store" src="google-play.png" alt="" />
+      <img
+        class="store google"
+        src="google-play.png"
+        alt="Flair: Sticker Design Maker" />
     </a>
   </div>
 
@@ -188,45 +161,25 @@
 
   <div class="card-list">
     <div>
-      <img class="card" src="themes-feature.svg" alt="" />
+      <img class="card" src="themes-feature.svg" alt="Popular Themes" />
       <div class="container-text">Popular Themes, Specially Picked For You</div>
     </div>
     <div>
-      <img class="card" src="stickers-feature.svg" alt="" />
+      <img
+        class="card"
+        src="stickers-feature.svg"
+        alt="Make Your Own Stickers" />
       <div class="container-text">Make Your Own Stickers and Sticker Packs</div>
     </div>
     <div>
-      <img class="card" src="tools-feature.svg" alt="" />
+      <img class="card" src="tools-feature.svg" alt="Design Tools" />
       <div class="container-text">Intuitive Graphic Design Tools</div>
     </div>
     <div>
-      <img class="card" src="share-feature.svg" alt="" />
+      <img class="card" src="share-feature.svg" alt="Share Your Stickers" />
       <div class="container-text">Share Your Stickers Anywhere!</div>
     </div>
   </div>
   <br />
-  <div class="quick-links-flair">
-    <a href="/curious">Tech Support</a>
-    &nbsp;&nbsp;|&nbsp;&nbsp;
-    <a href="/flair-about">Flair FAQ</a>
-    &nbsp;&nbsp;|&nbsp;&nbsp;
-    <a href="/terms">Terms of Service</a>
-    &nbsp;&nbsp;|&nbsp;&nbsp;
-    <a href="/privacy">Data Privacy</a>
-  </div>
-
-  <div class="small-logo">
-    <a href="/">
-      <img class="small-logo" src="flairLogo.svg" alt="flair logo" />
-    </a>
-    <a href="https://12triangles.com">
-      <img
-        class="small-logo"
-        src="12TrianglesWhite.svg"
-        alt="12 Triangles logo" />
-    </a>
-  </div>
-  <br />
-  <div class="contact">FLAIR IS A PRODUCT OF 12 TRIANGLES</div>
 </div>
 <br />

@@ -70,13 +70,13 @@
   This Terms of Use Agreement (“Terms of Use”) is entered into by and between 12
   Triangles, LLC d/b/a 12 Triangles (“Company”, “we”, “us and “our”) and you,
   and is made effective as of the date of your use of this website (
-  <a href="">www.12Triangles.com</a>
+  <a href="https://12triangles.com">www.12Triangles.com</a>
   ) or any Flair application (“Application”), or the date of electronic
   acceptance. These Terms of Use together with our Privacy Policy (which can be
-  found at www.12 Triangles.com/legal, the “Privacy Policy”) and any additional
-  terms set forth the general terms and conditions of your use of the website
-  and the products and services purchased or accessed through the website or
-  Application (individually and collectively, the “Services”).
+  found below, the “Privacy Policy”) and any additional terms set forth the
+  general terms and conditions of your use of the website and the products and
+  services purchased or accessed through the website or Application
+  (individually and collectively, the “Services”).
 </div>
 <br />
 <div>
@@ -1088,8 +1088,8 @@
   If at any time you have questions about our practices or any of your rights
   described below, you may reach our Data Protection Officer (“DPO”) and our
   dedicated team that supports this office by contacting us at
-  <a href="mailto:privacy@12triangles.com">privacy@12Triangles.com</a>
-  . This inbox is actively monitored and managed so that we can deliver an
+  <a href="mailto:privacy@12triangles.com">privacy@12Triangles.com.</a>
+  This inbox is actively monitored and managed so that we can deliver an
   experience that you can confidently trust.
 </div>
 <br />
@@ -1312,8 +1312,7 @@
   believe that anyone has provided us with your personal information and you
   would like to request that it be removed from our database, please contact us
   at
-  <a href="mailto:privacy@12triangles.com">privacy@12Triangles.com</a>
-  .
+  <a href="mailto:privacy@12triangles.com">privacy@12Triangles.com.</a>
 </div>
 <br />
 <br />
@@ -1396,8 +1395,7 @@
 <div>
   If you have any questions about the security or retention of your personal
   information, you can contact us at
-  <a href="mailto:privacy@12triangles.com">privacy@12Triangles.com</a>
-  .
+  <a href="mailto:privacy@12triangles.com">privacy@12Triangles.com.</a>
 </div>
 <br />
 <br />
@@ -1416,8 +1414,8 @@
 <div>
   If you wish to delete or port your personal information, you may submit your
   request to
-  <a href="mailto:privacy@12triangles.com">privacy@12Triangles.com</a>
-  . If you make a request to delete your personal information and that data is
+  <a href="mailto:privacy@12triangles.com">privacy@12Triangles.com.</a>
+  If you make a request to delete your personal information and that data is
   necessary for the products or services you have purchased, the request will be
   honored only to the extent it is no longer necessary for any Services
   purchased or required for our legitimate business purposes or legal or
@@ -1538,8 +1536,8 @@
   If you have any privacy-related questions, concerns or complaints about our
   Privacy Policy, our practices or our Services, you may contact our Office of
   the DPO by email at
-  <a href="mailto:privacy@12triangles.com">privacy@12Triangles.com</a>
-  . In the alternative, you may contact us by either of the following means:
+  <a href="mailto:privacy@12triangles.com">privacy@12Triangles.com.</a>
+  In the alternative, you may contact us by either of the following means:
 </div>
 <br />
 <br />

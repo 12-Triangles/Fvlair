@@ -7,15 +7,6 @@
 </script>
 
 <style>
-  .big-logo {
-    display: flex;
-    padding: 48px;
-    margin: 0px auto auto;
-    max-width: 200px;
-    /* background-color: #6f1f8f; */
-    filter: drop-shadow(32px 32px 80px #00000010);
-  }
-
   .heading {
     max-width: 576px;
     width: 96.25%;
@@ -37,10 +28,6 @@
     color: white;
     margin: auto;
     margin-bottom: 48px;
-
-    /* & a {
-      text-decoration: underline;
-    } */
   }
 
   hr {
@@ -52,56 +39,27 @@
   }
 
   .component-container {
+    max-width: 1200px;
     width: 92.5%;
     height: 100%;
     margin: 0px auto auto;
-
+    display: flex;
+    flex-direction: column;
     padding-left: 3.75%;
     padding-right: 3.75%;
     background-color: #6f1f8f;
   }
 
-  .quick-links-flair {
-    font-weight: 700;
-    text-transform: uppercase;
-    font-size: 12px;
-    margin: 0px auto 32px;
-    max-width: 416px;
-    width: 96.25%;
-    align-items: center;
-    justify-content: space-evenly;
-    text-align: center;
-    color: white;
-  }
-
-  .contact {
-    color: white;
-    font-weight: 700;
-    text-transform: uppercase;
-    font-size: 12px;
-    margin: auto;
-    margin-top: 20px;
-    align-items: center;
-    justify-content: space-evenly;
-  }
-
   a {
+    color: inherit !important;
     margin: auto;
-  }
-
-  .small-logo {
-    height: 66px;
-    width: 60px;
-    margin: auto;
-    padding: 0px 16px;
-    color: white;
   }
 </style>
 
 <div class="component-container">
-  <br />
-  <br />
-  <img class="big-logo" src="assets/flairLogo.svg" alt="Flair logo" />
+  <a href="/">
+    <img class="big-logo" src="flairLogo.svg" alt="Flair Logo" />
+  </a>
   <div class="heading">Tell me about Flair!</div>
   <div class="text">
     Flair is a simple but powerful sticker design app that makes it easy to
@@ -136,8 +94,7 @@
   </div>
   <div class="text">
     Please visit our
-    <a href="/support">support website</a>
-    .
+    <a href="/support">support website.</a>
     <br />
     P.S. App development is very hard. We’ll try to solve your issue quickly and
     to the best of our abilities.
@@ -149,10 +106,16 @@
     I, on the other hand, AM here to learn about Flair. Where can I download it?
   </div>
   <div class="text">
-    <a href="google.com">Apple App Store</a>
+    <a
+      href="https://apps.apple.com/us/app/flair-sticker-design-kit/id1578105526">
+      Apple App Store
+    </a>
     or
-    <a href="google.com">Google Play Store</a>
-    . Free to download.
+    <a
+      href="https://play.google.com/store/apps/details?id=com.triangles12.flairapp">
+      Google Play Store.
+    </a>
+    Free to download.
     <br />
     <br />
     Flair Pro is $1.99/month, $11.99/year, or $35.99/once to unlock all
@@ -170,7 +133,7 @@
   <div class="heading">Will Flair be localized to my language?</div>
   <div class="text">
     Flair uses English by default but will be translated to Hindi, Portuguese,
-    Spanish, French, Indonesian, Russian, German, Filipino, and Italian.
+    Spanish, French, Indonesian, German, Filipino, and Italian.
   </div>
   <br />
   <hr />
@@ -186,53 +149,25 @@
   </div>
   <div class="text">
     Sure! We’ve been keeping a pretty terrible record of things on our
-    <a href="https://blog.12Triangles.com">development blog</a>
-    . There you can find art and process posts, photos from the studio, and
-    more.
+    <a href="https://ionhipster.com">development blog.</a>
+    There you can find art and process posts, photos from the studio, and more.
   </div>
   <br />
   <div class="heading">What technology was Flair built with?</div>
   <div class="text">
     Flair is being developed using Angular, Ionic, Capacitor, and uses many
-    Firebase features. We also generate SVGs using magic.
+    Firebase features. We also generate SVGs using magic. ✨
   </div>
   <br />
   <div class="heading">You didn’t answer my question!</div>
   <div class="text">
     Come talk to us on
-    <a href="https://twitter.com/12triangles">Twitter</a>
-    ! If you’re having a technical problem, please head to our
-    <a href="/support">support site</a>
-    .
+    <a href="https://twitter.com/12triangles">Twitter!</a>
+    If you’re having a technical problem, please head to our
+    <a href="/support">support site.</a>
   </div>
   <br />
   <br />
   <br />
-  <br />
-  <br />
-  <br />
-  <div class="flex-me quick-links-flair">
-    <a href="/support">Tech Support</a>
-    &nbsp;&nbsp;|&nbsp;&nbsp;
-    <a href="/flair-about">Flair FAQ</a>
-    &nbsp;&nbsp;|&nbsp;&nbsp;
-    <a href="">Terms of Service</a>
-    &nbsp;&nbsp;|&nbsp;&nbsp;
-    <a href="">Data Privacy</a>
-  </div>
-
-  <div class="flex-me small-logo">
-    <a href="/">
-      <img class="small-logo" src="assets/flairLogo.svg" alt="flair logo" />
-    </a>
-    <a href="https://12triangles.com">
-      <img
-        class="small-logo"
-        src="assets/12TrianglesWhite.svg"
-        alt="12 Triangles logo" />
-    </a>
-  </div>
-  <br />
-  <div class="flex-me contact">FLAIR IS A PRODUCT OF 12 TRIANGLES</div>
   <br />
 </div>

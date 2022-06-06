@@ -80,6 +80,50 @@
     flex-direction: column;
   }
 
+  .footer-link {
+    padding: 0px;
+    background-color: #6f1f8f;
+  }
+
+  .footer-link:hover {
+    text-decoration: underline;
+    background-color: #6f1f8f;
+  }
+
+  .quick-links-flair {
+    display: flex;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 12px;
+    margin: 0px auto 32px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+  }
+
+  .contact {
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 12px;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .small-logo {
+    display: flex;
+    justify-content: center;
+    height: 66px;
+    width: 60px;
+    margin: auto;
+    padding: 0px 16px;
+    color: white;
+  }
+
   .copyright {
     padding: 16px 16px 16px;
     color: white;
@@ -197,7 +241,7 @@
   {/if}
 </MediaQuery> -->
 <div class="nav-bar">
-  <a href="/" class="home-button">12 Triangles</a>
+  <a href="https://12triangles.com" class="home-button">12 Triangles</a>
   <div class="links">
     <a class="link" href="https://sayitwithflair.com">Flair</a>
     <a class="link" href="https://ionhipster.com">Blog</a>
@@ -245,5 +289,28 @@
   <div class="spacer">&nbsp;</div>
 </div>
 <br /> -->
+<div class="quick-links-flair">
+  <a class="footer-link" href="/curious">Tech Support</a>
+  &nbsp;&nbsp;|&nbsp;&nbsp;
+  <a class="footer-link" href="/flair-about">Flair FAQ</a>
+  &nbsp;&nbsp;|&nbsp;&nbsp;
+  <a class="footer-link" href="/terms">Terms of Service</a>
+  &nbsp;&nbsp;|&nbsp;&nbsp;
+  <a class="footer-link" href="/privacy">Data Privacy</a>
+</div>
+
+<div class="small-logo">
+  <a class="footer-link" href="/">
+    <img class="small-logo" src="flairLogo.svg" alt="flair logo" />
+  </a>
+  <a class="footer-link" href="https://12triangles.com">
+    <img
+      class="small-logo"
+      src="12TrianglesWhite.svg"
+      alt="12 Triangles logo" />
+  </a>
+</div>
+<br />
+<div class="contact">FLAIR IS A PRODUCT OF 12 TRIANGLES</div>
 <div class="copyright">© 12 Triangles, LLC 2022</div>
 <br />
