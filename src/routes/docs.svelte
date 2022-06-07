@@ -1,8 +1,47 @@
+<script context="module">
+  // Get all posts of markdown type
+  const allPosts = import.meta.glob('./*.md')
+  let body = []
+  for (let path in allPosts) {
+    body.push(
+      allPosts[path]().then(({ metadata }) => {
+        return { path, metadata }
+      }),
+    )
+  }
+
+  export const load = async () => {
+    const posts = await Promise.all(body)
+
+    return {
+      props: {
+        posts,
+      },
+    }
+  }
+</script>
+
 <script>
   import { onMount } from 'svelte'
+  // import { MetaTags } from 'svelte-meta-tags'
+  import MediaQuery from './MediaQuery.svelte'
 
   onMount(() => {
     window.scrollTo(0, 0)
+  })
+  export let posts
+  // Sort the posts based on when they were created
+  export let sortedPosts = posts.sort((a, b) => {
+    return a.metadata.created > b.metadata.created
+      ? 1
+      : a.metadata.created < b.metadata.created
+      ? -1
+      : 0
+  })
+
+  // Get the Getting Started posts
+  export const gettingStarted = sortedPosts.filter((post) => {
+    return post.metadata.tag === 'Getting Started'
   })
 </script>
 
@@ -15,14 +54,29 @@
   }
 
   .section {
-    margin: auto;
-
+    margin: 16px auto 8px;
     font-size: 24px;
     font-weight: 700;
     max-width: 740px;
   }
 
-  .body-text {
+  aside {
+    background-color: #f2f2f2;
+    border-radius: 4px;
+    padding: 12px;
+
+    display: flex;
+  }
+
+  .aside-text {
+    color: #222;
+  }
+
+  .aside-image {
+    margin-top: 0px;
+    margin-bottom: 8px;
+  }
+  /* .body-text {
     margin: auto;
     color: white;
     line-height: 2;
@@ -34,7 +88,7 @@
     color: #999999;
     line-height: 2;
     max-width: 740px;
-  }
+  } */
   a {
     color: white;
     text-decoration: underline;
@@ -61,6 +115,7 @@
     border-width: 0;
     color: white;
     background-color: white;
+    margin-top: 64px;
     margin-bottom: 24px;
   }
 </style>
@@ -70,14 +125,20 @@
   <br />
 
   <aside>
-    This documentation describes the core features of Flair. We will update the
-    content as new features get implemented. 🖤 12 Triangles
+    <div class="aside-image">💡</div>
+    &nbsp; &nbsp;
+    <div class="aside-text">
+      This documentation describes the core features of Flair. We will update
+      the content as new features get implemented. 🖤 12 Triangles
+    </div>
   </aside>
-  <br />
+
   <div class="section">👉 Getting Started</div>
-  <li>
-    <a href="/">Creating your first sticker</a>
-  </li>
+  {#each gettingStarted as post}
+    <li>
+      <a href={post.path.replace('.md', '')}>{post.metadata.title}</a>
+    </li>
+  {/each}
   <li>
     <a href="/">Understanding Flair's UI</a>
   </li>

@@ -6,8 +6,8 @@
   beforeUpdate(() => {
     if (location !== undefined) {
       atDocs =
-        location.href === 'http://localhost:1234/support' ||
-        location.href === 'https://sayitwithflair.com/support'
+        location.href === 'http://localhost:1234/docs' ||
+        location.href === 'https://sayitwithflair.com/docs'
     }
   })
 </script>
@@ -15,23 +15,16 @@
 <style>
   :global(body) {
     margin: 0px;
-    border-top: 8px solid #ff8438;
     background-color: #6f1f8f;
-    color: #222222;
-    /* font-size: 21px; */
     font-family: 'Inter', sans-serif;
   }
 
   .slot {
+    color: white;
     max-width: 96.25%;
     width: 2000px;
     margin: auto;
-  }
-
-  .container {
-    max-width: 96.25%;
-    width: 2000px;
-    margin: auto;
+    display: flex;
   }
 
   .nav-bar {
@@ -91,7 +84,10 @@
   }
 
   .quick-links-flair {
+    max-width: 96.25%;
+    width: 2000px;
     display: flex;
+    flex-wrap: wrap;
     font-weight: 700;
     text-transform: uppercase;
     font-size: 12px;
@@ -132,189 +128,29 @@
   }
 </style>
 
-<div class="container">
-  <!-- <nav class="flex cen">
-    <div>&nbsp;&nbsp;&nbsp;</div>
-    <div class="flex col">
-      <a href="/">
-        <img
-          class="header-img"
-          src="/ionHipsterMustache.svg"
-          alt="ionhipster" />
-      </a>
-      <div class="spacer">&nbsp;</div>
-    </div>
-    <div class="spacer">&nbsp;</div>
-    <div class="tagline">
-      {#if isHome}
-        <b>ionhipster</b>
-        is a journal of notes, tips, and tricks on Ionic development.
-        <div class="spacer">&nbsp;</div>
-      {/if}
-      {#if !isHome}
-        <div class="spacer">&nbsp;</div>
-      {/if}
-    </div>
-    <div class="spacer">&nbsp;</div>
-  </nav> -->
-  <br />
-  <br />
-  <br />
-  <div class="slot">
-    <slot />
+<div class="slot">
+  <slot />
+</div>
+<div class="nav-bar">
+  <div class="links">
+    <a href="https://12triangles.com" class="home-button">12 Triangles</a>
+    <a class="link" href="/">Flair</a>
+  </div>
+  <div class="links">
+    <a class="link" href="/docs">Docs</a>
+    <a class="link" href="https://ionhipster.com">Blog</a>
   </div>
 </div>
-<!-- <MetaTags
-  title="ionhipster"
-  description="A journal of notes, tips, and tricks on Ionic development." />
-
-<br />
-<br />
-<MediaQuery query="(min-width: 700px)" let:matches>
-  {#if matches}
-    {#if !isHome}
-      <br />
-    {/if}
-
-    <div class="container">
-      <nav class="flex cen">
-        <div>&nbsp;&nbsp;&nbsp;</div>
-        <div class="flex col">
-          <a href="/">
-            <img
-              class="header-img"
-              src="/ionHipsterMustache.svg"
-              alt="ionhipster" />
-          </a>
-          <div class="spacer">&nbsp;</div>
-        </div>
-        <div class="spacer">&nbsp;</div>
-        <div class="tagline">
-          {#if isHome}
-            <b>ionhipster</b>
-            is a journal of notes, tips, and tricks on Ionic development.
-            <div class="spacer">&nbsp;</div>
-          {/if}
-          {#if !isHome}
-            <div class="spacer">&nbsp;</div>
-          {/if}
-        </div>
-        <div class="spacer">&nbsp;</div>
-      </nav>
-      <br />
-      <br />
-      <br />
-      <div class="slot">
-        <slot />
-      </div>
-    </div>
-  {/if}
-</MediaQuery>
-<MediaQuery query="(max-width: 699px)" let:matches>
-  {#if matches}
-    <div class="container-mobile">
-      <nav class="flex col cen">
-        <div class="spacer">&nbsp;</div>
-        <a href="/">
-          <img
-            class="header-img"
-            src="/ionHipsterMustache.svg"
-            alt="ionhipster" />
-        </a>
-        {#if isHome}
-          <div class="spacer">&nbsp;</div>
-        {/if}
-        <div class="tagline-mobile">
-          {#if isHome}
-            <b>ionhipster</b>
-            is a journal of notes, tips, and tricks on Ionic development.
-          {/if}
-        </div>
-      </nav>
-      <br />
-      <br />
-      <br />
-      <div class="slot">
-        <slot />
-      </div>
-    </div>
-  {/if}
-</MediaQuery> -->
-{#if !atDocs}
-  <div class="nav-bar">
-    <div class="links">
-      <a href="https://12triangles.com" class="home-button">12 Triangles</a>
-      <a class="link" href="/">Flair</a>
-    </div>
-    <!-- <div class="spacer">&nbsp;</div>
-    <div class="spacer">&nbsp;</div> -->
-    <div class="links">
-      <a class="link" href="/support">Docs</a>
-      <a class="link" href="https://ionhipster.com">Blog</a>
-    </div>
-  </div>
-{/if}
-{#if atDocs}
-  <div class="nav-bar">
-    <div class="links">
-      <a href="https://12triangles.com" class="home-button">12 Triangles</a>
-      <a class="link" href="/support">Flair Docs</a>
-    </div>
-    <div class="links">
-      <a class="link" href="/">Home</a>
-
-    </div>
-  </div>
-{/if}
 <br />
 <br />
 <br />
-<!-- <div class="license">
-  <img
-    aria-hidden="true"
-    class="cc"
-    src="/cc.svg"
-    title="Creative Commons"
-    alt="Creative Commons" />
-  <img
-    aria-hidden="true"
-    class="cc"
-    src="/by.svg"
-    title="Attribution"
-    alt="Attribution" />
-  <img
-    aria-hidden="true"
-    class="cc"
-    src="/nc.svg"
-    title="Non-Commercial"
-    alt="Non-Commercial" />
-  ionhipster.com is released under a
-  <a href="https://creativecommons.org/licenses/by-nc/4.0/" rel="license">
-    Creative Commons BY-NC License
-  </a>
-  .
-</div>
-<br />
-<br />
-<div class="flex cen">
-  <div class="spacer">&nbsp;</div>
-  <a href="/">
-    <img class="footer-image" src="ionHipsterMustache.svg" alt="ionhipster" />
-  </a>
-  <br />
-  <a href="https://12triangles.com">
-    <img class="footer-image" src="/12TrianglesDark.svg" alt="12 Triangles" />
-  </a>
-  <div class="spacer">&nbsp;</div>
-</div>
-<br /> -->
 <div class="quick-links-flair">
-  <a class="footer-link" href="/curious">Tech Support</a>
-  &nbsp;&nbsp;|&nbsp;&nbsp;
+  <a class="footer-link" href="/docs">Tech Support</a>
+  &nbsp;&nbsp;-&nbsp;&nbsp;
   <a class="footer-link" href="/flair-about">Flair FAQ</a>
-  &nbsp;&nbsp;|&nbsp;&nbsp;
+  &nbsp;&nbsp;-&nbsp;&nbsp;
   <a class="footer-link" href="/terms">Terms of Service</a>
-  &nbsp;&nbsp;|&nbsp;&nbsp;
+  &nbsp;&nbsp;-&nbsp;&nbsp;
   <a class="footer-link" href="/privacy">Data Privacy</a>
 </div>
 

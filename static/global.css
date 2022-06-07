@@ -9,3 +9,38 @@
   font-weight: 400;
   src: url('Inter-Regular.ttf') format('ttf');
 }
+
+.doc-container {
+  max-width: 760px;
+  width: 100%;
+  height: 100%;
+  margin: 100px auto auto;
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  font-size: 42px;
+}
+
+aside {
+  background-color: #f2f2f2;
+  border-radius: 4px;
+  padding: 12px;
+  display: flex;
+}
+
+.aside-text {
+  color: #222;
+  align-self: center;
+}
+
+.aside-image {
+  margin-top: 0px;
+  margin-bottom: 8px;
+}
+
+.gesture-image {
+  height: 48px;
+  width: 67px;
+}

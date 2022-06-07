@@ -124,6 +124,8 @@
   }
 </style>
 
+<br />
+<br />
 <div class="bokeh">
   <div class="left-bokeh" />
   <div class="right-bokeh" />

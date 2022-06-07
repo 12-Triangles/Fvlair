@@ -56,6 +56,8 @@
   }
 </style>
 
+<br />
+<br />
 <div class="component-container">
   <a href="/">
     <img class="big-logo" src="flairLogo.svg" alt="Flair Logo" />
@@ -94,7 +96,7 @@
   </div>
   <div class="text">
     Please visit our
-    <a href="/support">support website.</a>
+    <a href="/docs">support website.</a>
     <br />
     P.S. App development is very hard. We’ll try to solve your issue quickly and
     to the best of our abilities.
@@ -164,7 +166,7 @@
     Come talk to us on
     <a href="https://twitter.com/12triangles">Twitter!</a>
     If you’re having a technical problem, please head to our
-    <a href="/support">support site.</a>
+    <a href="/docs">support site.</a>
   </div>
   <br />
   <br />
