@@ -23,6 +23,19 @@ h1 {
   font-size: 42px;
 }
 
+h2 {
+  margin-bottom: 0px;
+}
+
+ol {
+  line-height: 2;
+  padding-left: 24px;
+}
+
+ul {
+  padding: 0px;
+}
+
 aside {
   background-color: #f2f2f2;
   border-radius: 4px;
@@ -41,6 +54,11 @@ aside {
 }
 
 .gesture-image {
-  height: 48px;
-  width: 67px;
+  height: 67px;
+  width: 48px;
+  margin: auto 12px;
+}
+
+.doc-link {
+  color: white;
 }

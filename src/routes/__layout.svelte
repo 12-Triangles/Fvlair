@@ -167,5 +167,5 @@
 </div>
 <br />
 <div class="contact">FLAIR IS A PRODUCT OF 12 TRIANGLES</div>
-<div class="copyright">© 12 Triangles, LLC 2022</div>
+<div class="copyright">© 12 Triangles, LLC 2023</div>
 <br />

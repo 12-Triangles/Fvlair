@@ -1,6 +1,6 @@
 ---
 title: Creating your first sticker
-created: 06-07-2022
+created: 06-01-2022
 description: Maybe maybe maybe
 tag: Getting Started
 ---
@@ -42,9 +42,14 @@ You can rotate sticker layers using two fingers:
 
 <img class="gesture-image" src="rotateTwoFingers.svg">
 
+<br>
+<br>
+
 Check out all the available gestures in the link below.
 
-**link to GESTURES here**
+📄 <a class="doc-link" href="/gestures" alt="Gestures">Gestures</a>
+
+<br>
 
 ## Learn from the library files
 
@@ -52,6 +57,6 @@ Exploring the Flair Library is a good way of discovering new ways to create stic
 
 ## 👉 Next Steps
 
-**link to UNDERSTANDING FLAIR'S UI**
+📄 <a class="doc-link" href="/understanding-flairs-ui" alt="Understanding Flair's UI">Understanding Flair's UI</a>
 
 </div>

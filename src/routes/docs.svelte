@@ -1,21 +1,22 @@
 <script context="module">
   // Get all posts of markdown type
-  const allPosts = import.meta.glob('./*.md')
-  let body = []
-  for (let path in allPosts) {
-    body.push(
-      allPosts[path]().then(({ metadata }) => {
+  const mdPosts = import.meta.glob('./*.md')
+  let posts = []
+
+  for (let path in mdPosts) {
+    posts.push(
+      mdPosts[path]().then(({ metadata }) => {
         return { path, metadata }
       }),
     )
   }
 
   export const load = async () => {
-    const posts = await Promise.all(body)
+    const allPosts = await Promise.all(posts)
 
     return {
       props: {
-        posts,
+        allPosts,
       },
     }
   }
@@ -24,7 +25,7 @@
 <script>
   import { onMount } from 'svelte'
   // import { MetaTags } from 'svelte-meta-tags'
-  import MediaQuery from './MediaQuery.svelte'
+  // import MediaQuery from './MediaQuery.svelte'
 
   onMount(() => {
     window.scrollTo(0, 0)
@@ -93,7 +94,6 @@
     color: white;
     text-decoration: underline;
     font-size: 16px;
-    /* font-weight: 00; */
   }
 
   div {
@@ -106,7 +106,6 @@
 
   li:before {
     content: '📄';
-    /* margin-left: -20px; */
     margin-right: 8px;
   }
 
@@ -139,24 +138,9 @@
       <a href={post.path.replace('.md', '')}>{post.metadata.title}</a>
     </li>
   {/each}
-  <li>
-    <a href="/">Understanding Flair's UI</a>
-  </li>
-  <li>
-    <a href="/">Switching UI themes</a>
-  </li>
-  <li>
-    <a href="/">Sticker Packs</a>
-  </li>
-  <li>
-    <a href="/">Gestures</a>
-  </li>
-  <li>
-    <a href="/">FAQ</a>
-  </li>
   <hr />
   <div class="section">🍭 Understanding Sticker Design</div>
-  <li>
+  <!-- <li>
     <a href="/">Working with 2D layers</a>
   </li>
   <li>
@@ -170,5 +154,5 @@
   </li>
   <li>
     <a href="/">Layer Controls</a>
-  </li>
+  </li> -->
 </div>
