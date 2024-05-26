@@ -1,62 +1,12 @@
 <script>
-  import { onMount } from 'svelte'
+  import { onMount } from "svelte";
 
   onMount(() => {
-    window.scrollTo(0, 0)
-  })
+    window.scrollTo(0, 0);
+  });
 </script>
 
-<style>
-
-  
-
-  .title {
-    font-size: 48px;
-    font-weight: 800;
-    margin-top: 126px;
-  }
-
-  .section {
-    margin: auto;
-    font-size: 24px;
-    font-weight: 700;
-    max-width: 740px;
-  }
-
-  .body-text {
-    margin: auto;
-    color: #f2f2f2;
-    line-height: 2;
-    max-width: 740px;
-  }
-
-  .date-text {
-    margin: auto;
-    color: #999999;
-    line-height: 2;
-    max-width: 740px;
-  }
-
-  a {
-    color: #f2f2f2;
-    text-decoration: underline;
-    font-weight: 800;
-  }
-
-  div {
-    margin: auto;
-    color: #f2f2f2;
-    line-height: 2;
-    max-width: 740px;
-  }
-
-  .jump {
-    margin-bottom: 160px;
-  }
-</style>
-
 <div>
-
   <br />
 
   <div class="title">Terms of Use</div>
@@ -73,12 +23,12 @@
     12 Triangles, LLC d/b/a 12 Triangles (“Company”, “we”, “us and “our”) and
     you, and is made effective as of the date of your use of this website (
     <a href="https://12triangles.com">www.12Triangles.com</a>
-    ) or any Flair application (“Application”), or the date of electronic
-    acceptance. These Terms of Use together with our Privacy Policy (which can
-    be found below, the “Privacy Policy”) and any additional terms set forth the
-    general terms and conditions of your use of the website and the products and
-    services purchased or accessed through the website or Application
-    (individually and collectively, the “Services”).
+    ) or any Flair application (“Application”), or the date of electronic acceptance.
+    These Terms of Use together with our Privacy Policy (which can be found below,
+    the “Privacy Policy”) and any additional terms set forth the general terms and
+    conditions of your use of the website and the products and services purchased
+    or accessed through the website or Application (individually and collectively,
+    the “Services”).
   </div>
   <br />
   <div>
@@ -240,9 +190,8 @@
     If a local language is not supported, then the Service will default to
     English only.
     <!--A list of supported languages include: English, Spanish, French, German, Portuguese, Dutch, Danish, Swedish, Finnish, Norwegian, Indonesian and Italian (this list is subject to change). -->
-    To the extent that the Services are used with a local language (other than
-    English), there may be limitations to certain features or functionality
-    within the Service.
+    To the extent that the Services are used with a local language (other than English),
+    there may be limitations to certain features or functionality within the Service.
   </div>
   <br />
   <br />
@@ -498,7 +447,8 @@
     time you order them. All amounts are non-refundable unless otherwise noted
     in the
     <a
-      href="https://www.notion.so/Requesting-a-Refund-a66e34a9b22f439b89cad92865b246ff">
+      href="https://www.notion.so/Requesting-a-Refund-a66e34a9b22f439b89cad92865b246ff"
+    >
       Refund Policy
     </a>
     .
@@ -667,7 +617,8 @@
   <div>
     Products and Services available for refunds are described
     <a
-      href="https://www.notion.so/Requesting-a-Refund-a66e34a9b22f439b89cad92865b246ff">
+      href="https://www.notion.so/Requesting-a-Refund-a66e34a9b22f439b89cad92865b246ff"
+    >
       here
     </a>
     (“Refund Policy”).
@@ -1104,8 +1055,8 @@
     described below, you may reach our Data Protection Officer (“DPO”) and our
     dedicated team that supports this office by contacting us at
     <a href="mailto:privacy@12triangles.com">privacy@12Triangles.com.</a>
-    This inbox is actively monitored and managed so that we can deliver an
-    experience that you can confidently trust.
+    This inbox is actively monitored and managed so that we can deliver an experience
+    that you can confidently trust.
   </div>
   <br />
   <br />
@@ -1148,27 +1099,25 @@
   <br />
   <div>
     <b>Cookies and similar technologies</b>
-    on our websites and our mobile applications allow us to track your browsing
-    behavior, links clicked, items purchased, your device type, and to collect
-    various data, including analytics, about how you use and interact with our
-    Services. These technologies automatically collect data when you use and
-    interact with our Services, including metadata, log files, cookie/device
-    IDs, page load time, server response time, and approximate location
-    information to measure website performance and improve our systems,
-    including optimizing DNS resolution, network routing and server
-    configurations. Specifically, interactions with the features, content and
-    links (including those of third-parties, such as social media plugins)
-    contained within the Services, Internet Protocol (IP) address, browser type
-    and settings, the date and time the Services were used, information about
-    browser configuration and plugins, language preferences and cookie data,
-    information about devices accessing the Services, including type of device,
-    what operating system is used, device settings, application IDs, unique
-    device identifiers and error data is collected. All this allows us to
-    provide you with more relevant product offerings, a better experience on our
-    sites and mobile applications, and to collect, analyze and improve the
-    performance of our Services. We may also collect your location (IP address)
-    so that we can personalize our Services. For additional information, and to
-    learn how to manage the technologies we utilize, please visit our
+    on our websites and our mobile applications allow us to track your browsing behavior,
+    links clicked, items purchased, your device type, and to collect various data,
+    including analytics, about how you use and interact with our Services. These
+    technologies automatically collect data when you use and interact with our Services,
+    including metadata, log files, cookie/device IDs, page load time, server response
+    time, and approximate location information to measure website performance and
+    improve our systems, including optimizing DNS resolution, network routing and
+    server configurations. Specifically, interactions with the features, content
+    and links (including those of third-parties, such as social media plugins) contained
+    within the Services, Internet Protocol (IP) address, browser type and settings,
+    the date and time the Services were used, information about browser configuration
+    and plugins, language preferences and cookie data, information about devices
+    accessing the Services, including type of device, what operating system is used,
+    device settings, application IDs, unique device identifiers and error data is
+    collected. All this allows us to provide you with more relevant product offerings,
+    a better experience on our sites and mobile applications, and to collect, analyze
+    and improve the performance of our Services. We may also collect your location
+    (IP address) so that we can personalize our Services. For additional information,
+    and to learn how to manage the technologies we utilize, please visit our
     <a href="/privacy">Cookie Policy</a>
     . If you wish to opt out of interest-based advertising click
     <a href="http://preferences-mgr.truste.com/">here</a>
@@ -1180,15 +1129,14 @@
   <br />
   <div>
     <b>Supplemented Data</b>
-    may be received about you from other sources, including publicly available
-    databases or third parties from whom we have purchased data, in which case
-    we may combine this data with information we already have about you so that
-    we can update, expand and analyze the accuracy of our records, assess the
-    qualifications of a candidate for employment, identify new customers, and
-    provide products and services that may be of interest to you. If you provide
-    us personal information about others, or if others give us your information,
-    we will only use that information for the specific reason for which it was
-    provided to us.
+    may be received about you from other sources, including publicly available databases
+    or third parties from whom we have purchased data, in which case we may combine
+    this data with information we already have about you so that we can update, expand
+    and analyze the accuracy of our records, assess the qualifications of a candidate
+    for employment, identify new customers, and provide products and services that
+    may be of interest to you. If you provide us personal information about others,
+    or if others give us your information, we will only use that information for
+    the specific reason for which it was provided to us.
   </div>
   <br />
   <br />
@@ -1208,8 +1156,8 @@
   <br />
   <div>
     <b>Delivering, improving, updating and enhancing our Services.</b>
-    We collect various information relating to your purchase, use and/or
-    interactions with our Services. We utilize this information to:
+    We collect various information relating to your purchase, use and/or interactions
+    with our Services. We utilize this information to:
   </div>
   <br />
   <div>
@@ -1239,10 +1187,10 @@
   <br />
   <div>
     <b>Sharing with trusted third parties.</b>
-    We may share your personal information with third parties that we have
-    partnered to allow you to integrate their services into our own Services,
-    and with our affiliates or trusted third party service providers as
-    necessary for them to perform services on our behalf, such as:
+    We may share your personal information with third parties that we have partnered
+    to allow you to integrate their services into our own Services, and with our
+    affiliates or trusted third party service providers as necessary for them to
+    perform services on our behalf, such as:
   </div>
   <br />
 
@@ -1283,13 +1231,13 @@
     </ul>
     <br />
     <b>Communicating with you.</b>
-    We may contact you directly or through a third party service provider
-    regarding products or services you have signed up or purchased from us, such
-    as necessary to deliver transactional or service related communications. We
-    may also contact you with offers for additional services we think you’ll
-    find valuable if you give us consent, or where allowed based upon legitimate
-    interests. You don’t need to provide consent as a condition to purchase our
-    goods or services. These contacts may include:
+    We may contact you directly or through a third party service provider regarding
+    products or services you have signed up or purchased from us, such as necessary
+    to deliver transactional or service related communications. We may also contact
+    you with offers for additional services we think you’ll find valuable if you
+    give us consent, or where allowed based upon legitimate interests. You don’t
+    need to provide consent as a condition to purchase our goods or services. These
+    contacts may include:
   </div>
   <br />
 
@@ -1312,12 +1260,12 @@
   <div>
     <br />
     If we collect information from you in connection with a co-branded offer, it
-    will be clear at the point of collection who is collecting the information
-    and whose privacy policy applies. In addition, it will describe any choice
-    options you have in regards to the use and/or sharing of your personal
-    information with a co-branded partner, as well as how to exercise those
-    options. We are not responsible for the privacy practices or the content of
-    third-party sites. Please read the privacy policy of any website you visit.
+    will be clear at the point of collection who is collecting the information and
+    whose privacy policy applies. In addition, it will describe any choice options
+    you have in regards to the use and/or sharing of your personal information with
+    a co-branded partner, as well as how to exercise those options. We are not responsible
+    for the privacy practices or the content of third-party sites. Please read the
+    privacy policy of any website you visit.
   </div>
   <br />
   <br />
@@ -1334,26 +1282,25 @@
   <br />
   <div>
     <b>Transfer of personal information abroad.</b>
-    If you utilize our Services from a country other than the country where our
-    servers are located, your personal information may be transferred across
-    international borders, which will only be done when necessary for the
-    performance of our contract with you, when we have your consent to do so, or
-    when the appropriate standard contractual clauses are in place. Also, when
-    you call us or initiate a chat, we may provide you with support from one of
-    our global locations outside your country of origin.
+    If you utilize our Services from a country other than the country where our servers
+    are located, your personal information may be transferred across international
+    borders, which will only be done when necessary for the performance of our contract
+    with you, when we have your consent to do so, or when the appropriate standard
+    contractual clauses are in place. Also, when you call us or initiate a chat,
+    we may provide you with support from one of our global locations outside your
+    country of origin.
   </div>
   <br />
   <br />
   <div>
     <b>Compliance with legal, regulatory and law enforcement requests.</b>
-    We cooperate with government and law enforcement officials and private
-    parties to enforce and comply with the law. We will disclose any information
-    about you to government or law enforcement officials or private parties as
-    we, in our sole discretion, believe necessary or appropriate to respond to
-    claims and legal process (such as subpoena requests), to protect our
-    property and rights or the property and rights of a third party, to protect
-    the safety of the public or any person, or to prevent or stop activity we
-    consider to be illegal or unethical.
+    We cooperate with government and law enforcement officials and private parties
+    to enforce and comply with the law. We will disclose any information about you
+    to government or law enforcement officials or private parties as we, in our sole
+    discretion, believe necessary or appropriate to respond to claims and legal process
+    (such as subpoena requests), to protect our property and rights or the property
+    and rights of a third party, to protect the safety of the public or any person,
+    or to prevent or stop activity we consider to be illegal or unethical.
   </div>
   <br />
   <br />
@@ -1431,11 +1378,10 @@
     If you wish to delete or port your personal information, you may submit your
     request to
     <a href="mailto:privacy@12triangles.com">privacy@12Triangles.com.</a>
-    If you make a request to delete your personal information and that data is
-    necessary for the products or services you have purchased, the request will
-    be honored only to the extent it is no longer necessary for any Services
-    purchased or required for our legitimate business purposes or legal or
-    contractual record keeping requirements.
+    If you make a request to delete your personal information and that data is necessary
+    for the products or services you have purchased, the request will be honored
+    only to the extent it is no longer necessary for any Services purchased or required
+    for our legitimate business purposes or legal or contractual record keeping requirements.
   </div>
   <br />
   <br />
@@ -1579,3 +1525,49 @@
   <br />
   <br />
 </div>
+
+<style>
+  .title {
+    font-size: 48px;
+    font-weight: 800;
+    margin-top: 126px;
+  }
+
+  .section {
+    margin: auto;
+    font-size: 24px;
+    font-weight: 700;
+    max-width: 740px;
+  }
+
+  .body-text {
+    margin: auto;
+    color: #f2f2f2;
+    line-height: 2;
+    max-width: 740px;
+  }
+
+  .date-text {
+    margin: auto;
+    color: #999999;
+    line-height: 2;
+    max-width: 740px;
+  }
+
+  a {
+    color: #f2f2f2;
+    text-decoration: underline;
+    font-weight: 800;
+  }
+
+  div {
+    margin: auto;
+    color: #f2f2f2;
+    line-height: 2;
+    max-width: 740px;
+  }
+
+  .jump {
+    margin-bottom: 160px;
+  }
+</style>
