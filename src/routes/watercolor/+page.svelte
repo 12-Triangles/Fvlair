@@ -1,10 +1,13 @@
 <br />
 <br />
+<!-- Background -->
 <div class="bokeh">
   <div class="left-bokeh" />
   <div class="right-bokeh" />
 </div>
+<!-- Main Page -->
 <div class="card-container">
+  <!-- Header -->
   <br />
   <br />
   <br />
@@ -28,10 +31,9 @@
       />
     </a>
   </div>
-
   <br />
   <br />
-
+  <!-- Cards -->
   <div class="card-list">
     <div>
       <img class="card" src="themes-feature.svg" alt="Popular Themes" />
@@ -54,6 +56,9 @@
       <div class="container-text">Quickly Share Your Stickers Anywhere!</div>
     </div>
   </div>
+  <!-- More Themes -->
+  <!-- <div>Here</div>
+  <br /> -->
   <!-- Footer -->
   <div class="app-stores">
     <a
@@ -226,14 +231,6 @@
     margin: auto;
     padding: 0px 16px;
     color: white;
-  }
-
-  .copyright {
-    color: #1f172e;
-    text-align: center;
-    font-size: 12px;
-    width: 100%;
-    margin: auto auto 16px;
   }
 
   .app-stores {

@@ -1,9 +1,11 @@
 <br />
 <br />
+<!-- Background -->
 <div class="bokeh">
   <div class="left-bokeh" />
   <div class="right-bokeh" />
 </div>
+<!-- Main Page -->
 <div class="card-container">
   <br />
   <br />
@@ -32,10 +34,11 @@
   <br />
   <br />
 
+  <!-- Cards -->
   <div class="card-list">
     <div>
       <img class="card" src="themes-feature.svg" alt="Popular Themes" />
-      <div class="container-text">Popular Themes, Specially Picked For You</div>
+      <div class="container-text">High-Quality, Carefully Chosen Textures</div>
     </div>
     <div>
       <img
@@ -43,15 +46,15 @@
         src="stickers-feature.svg"
         alt="Make Your Own Stickers"
       />
-      <div class="container-text">Make Your Own Stickers and Sticker Packs</div>
+      <div class="container-text">Unique Fonts, Only Available Using Flair</div>
     </div>
     <div>
       <img class="card" src="tools-feature.svg" alt="Design Tools" />
-      <div class="container-text">Intuitive Graphic Design Tools</div>
+      <div class="container-text">Easy-To-Use Graphic Design Tools</div>
     </div>
     <div>
       <img class="card" src="share-feature.svg" alt="Share Your Stickers" />
-      <div class="container-text">Share Your Stickers Anywhere!</div>
+      <div class="container-text">Quickly Share Your Stickers Anywhere!</div>
     </div>
   </div>
   <!-- Footer -->
@@ -69,8 +72,6 @@
 
   <div class="quick-links-flair">
     <a class="footer-link" href="/how-to-flair">How to Flair</a>
-    <!-- &nbsp;&nbsp;-&nbsp;&nbsp;
-      <a class="footer-link" href="/themes">Themes</a> -->
     &nbsp;&nbsp;✨&nbsp;&nbsp;
     <a class="footer-link" href="/terms">Terms of Service</a>
   </div>
