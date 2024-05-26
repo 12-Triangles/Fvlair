@@ -7,6 +7,9 @@
 </script>
 
 <style>
+
+  
+
   .title {
     font-size: 48px;
     font-weight: 800;
@@ -15,7 +18,6 @@
 
   .section {
     margin: auto;
-    padding: 0px 40px;
     font-size: 24px;
     font-weight: 700;
     max-width: 740px;
@@ -23,7 +25,6 @@
 
   .body-text {
     margin: auto;
-    padding: 0px 40px;
     color: #f2f2f2;
     line-height: 2;
     max-width: 740px;
@@ -31,7 +32,6 @@
 
   .date-text {
     margin: auto;
-    padding: 0px 40px;
     color: #999999;
     line-height: 2;
     max-width: 740px;
@@ -45,7 +45,6 @@
 
   div {
     margin: auto;
-    padding: 0px 40px;
     color: #f2f2f2;
     line-height: 2;
     max-width: 740px;

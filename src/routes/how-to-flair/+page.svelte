@@ -2,23 +2,26 @@
   * {
     margin: 0px;
     font-family: 'Inter', sans-serif;
+    
   }
-
+  
   :global(body) {
     margin: 0px;
-    background-color: #6f1f8f !important;
+    /* background-color: #6f1f8f !important; */
     color: #222222;
     font-family: 'Inter', sans-serif;
   }
-
+  
   :global(.big-logo) {
     margin: 32px auto;
     width: 160px;
     height: 160px;
     filter: drop-shadow(32px 32px 80px #00000010);
   }
-
+  
+  
   .card-container {
+    
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -32,34 +35,13 @@
   .bokeh {
     width: 100%;
     height: 100%;
-    background-color: #6f1f8f;
+    background-image: url('/watercolor.jpg');
+    background-size: cover;
     z-index: 0;
-    position: absolute;
+    position:fixed;
     overflow-x: hidden;
     top: 0px;
-    left: 0px;
-  }
-
-  .left-bokeh {
-    position: absolute;
-    background-color: #ff5f6996;
-    left: -10%;
-    top: -10%;
-    width: 100%;
-    height: 60%;
-    border-radius: 50%;
-    filter: blur(150px);
-  }
-
-  .right-bokeh {
-    position: absolute;
-    background-color: #ff5f6996;
-    right: -40%;
-    top: -40%;
-    width: 120%;
-    height: 80%;
-    border-radius: 50%;
-    filter: blur(150px);
+    left: 0px; 
   }
 
   .app-stores {
@@ -122,6 +104,41 @@
       font-weight: 400;
     }
   }
+
+  .small-logo {
+    display: flex;
+    justify-content: center;
+    height: 66px;
+    width: 60px;
+    margin: auto;
+    padding: 0px 16px;
+    color: white;
+  }
+
+  .copyright {
+    color: #1f172e;
+    text-align: center;
+    font-size: 12px;
+    width: 100%;
+    margin: auto auto 16px;
+  }
+
+
+  .app-stores {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 66%;
+    max-width: 400px;
+    margin: auto;
+  }
+  
+  .store {
+    
+    width: 200px;
+    height: 60px;
+    margin: 0px auto 24px;
+  }
 </style>
 
 <br />
@@ -131,12 +148,15 @@
   <div class="right-bokeh" />
 </div>
 <div class="card-container">
+  <br>
+  <br>
+  <br>
+  <br>
   <a href="/">
     <img class="big-logo" src="flairLogo.svg" alt="Flair Logo" />
   </a>
   <div class="flair-text">
-    Flair makes it easy to create customized stickers to personalize your text
-    and photo messages.
+    Flair makes it fast and easy to create custom stickers for your messages and more!
   </div>
   <br />
   <br />
@@ -146,14 +166,6 @@
       <img
         class="store apple"
         src="app-store.png"
-        alt="Flair: Sticker Design Maker" />
-    </a>
-    <br />
-    <a
-      href="https://play.google.com/store/apps/details?id=com.triangles12.flairapp">
-      <img
-        class="store google"
-        src="google-play.png"
         alt="Flair: Sticker Design Maker" />
     </a>
   </div>
@@ -183,5 +195,31 @@
     </div>
   </div>
   <br />
+  
+  
+  <div class="small-logo">
+    <a class="footer-link" href="/">
+      <img class="small-logo" src="flairLogo.svg" alt="flair logo" />
+    </a>
+    <a class="footer-link" href="https://12triangles.com">
+      <img
+      class="small-logo"
+      src="12TrianglesWhite.svg"
+      alt="12 Triangles logo" />
+    </a>
+  </div> 
+  <br>
+  <div class="contact">FLAIR IS A PRODUCT OF 12 TRIANGLES</div>
+  <br>
+  <div class="app-stores">
+    <a
+    href="https://apps.apple.com/us/app/flair-sticker-design-kit/id1578105526">
+    <img
+    class="store apple"
+    src="app-store.png"
+    alt="Flair: Sticker Design Maker" />
+  </a>
 </div>
-<br />
+  <div class="contact">© 12 Triangles, LLC 2023</div>
+  <br>
+</div>

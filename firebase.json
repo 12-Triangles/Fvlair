@@ -1,16 +1,16 @@
 {
+  "functions": {
+    "source": "functions"
+  },
   "hosting": {
-    "public": "build",
+    "public": "public",
     "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
-    "runtime": "nodejs16",
+    "runtime": "nodejs14",
     "rewrites": [
       {
         "source": "**",
         "function": "sveltekit"
       }
     ]
-  },
-  "functions": {
-    "source": "functions"
   }
 }
