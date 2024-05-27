@@ -26,7 +26,7 @@
           </div>
           <div class="links">
             <a class="link" href="/how-to-use-flair">How to Flair</a>
-            <a class="link" href="/themes">Themes</a>
+            <a class="link" href="/themes">Textures</a>
           </div>
         </nav>
         <div class="slot">
