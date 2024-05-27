@@ -119,4 +119,26 @@
     display: flex;
     flex-direction: column;
   }
+
+  * {
+    margin: 0px;
+    font-family: "Inter", sans-serif;
+  }
+
+  :global(body) {
+    margin: 0px;
+    color: #222222;
+    font-family: "Inter", sans-serif;
+  }
+
+  :global(.page-container) {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+    position: relative;
+    z-index: 1;
+  }
 </style>
