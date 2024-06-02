@@ -7,8 +7,8 @@
   import Header from "../../components/header.svelte";
   import Themes from "../../components/themes.svelte";
 
-  const appLink = "";
-  const backgroundImageName = "watercolor";
+  const appLink = "https://apps.apple.com/us/app/flair-watercolor-stickers/id6503091334";
+  const backgroundImageName = "watercolorBig";
 </script>
 
 <!-- Background -->
@@ -24,6 +24,6 @@
   <Themes></Themes>
 
   <!-- Footer -->
-  <AppStoreLink></AppStoreLink>
+  <AppStoreLink link={appLink}></AppStoreLink>
   <Footer></Footer>
 </div>

@@ -1324,7 +1324,7 @@ var init__2 = __esm({
     init_shims();
     index2 = 1;
     component2 = async () => component_cache2 ??= (await Promise.resolve().then(() => (init_error_svelte(), error_svelte_exports))).default;
-    imports2 = ["_app/immutable/nodes/1.CgPA9_Kp.js", "_app/immutable/chunks/scheduler.RU1Bb8xN.js", "_app/immutable/chunks/index.CpNSVWel.js", "_app/immutable/chunks/entry.Ds7n8UB5.js"];
+    imports2 = ["_app/immutable/nodes/1.HsSI5M7c.js", "_app/immutable/chunks/scheduler.RU1Bb8xN.js", "_app/immutable/chunks/index.CpNSVWel.js", "_app/immutable/chunks/entry.kxjGKvmW.js"];
     stylesheets2 = [];
     fonts2 = [];
   }
@@ -1388,12 +1388,12 @@ var init_themes = __esm({
       return `<br> <br> <br> <br> <a href="/" data-svelte-h="svelte-u7y9ar"><img class="big-logo svelte-2no6so" src="flairLogo.svg" alt="Flair Logo"></a> <div class="flair-text svelte-2no6so" data-svelte-h="svelte-d1b6zm">Flair makes it fast and easy to create and share your own custom stickers!</div> <br> <br>`;
     });
     css2 = {
-      code: '.feature-link-group.svelte-fz0v67{display:flex;flex-wrap:wrap;margin:64px auto;max-width:960px;justify-content:center}.hover-effect.svelte-fz0v67{width:240px;height:240px;margin:auto 32px;border-radius:120px;background-size:contain}.hover-effect.svelte-fz0v67:hover{box-shadow:0 0 0 16px #fff inset;transition:all 0.25s}.hover-effect.svelte-fz0v67:not(:hover){box-shadow:0 0 0 0px #fff inset;transition:all 0.25s}.watercolor.svelte-fz0v67{background-image:url("/watercolor.jpg");background-position:center;background-size:cover}.soon.svelte-fz0v67{background-image:url("/soon.jpg");background-position:center;background-size:cover}.title.svelte-fz0v67{text-transform:uppercase;text-align:center;font-size:12px;font-weight:700;padding-top:16px;padding-bottom:32px}a.svelte-fz0v67{text-decoration:none;color:inherit}',
-      map: '{"version":3,"file":"themes.svelte","sources":["themes.svelte"],"sourcesContent":["<h1>Flair Texture Library</h1>\\n<div class=\\"feature-link-group\\">\\n  <a href=\\"/acrylic\\">\\n    <div class=\\"hover-effect soon\\" />\\n    <div class=\\"title\\">acrylic</div>\\n  </a>\\n  <a href=\\"/black-ink\\">\\n    <div class=\\"hover-effect soon\\" />\\n    <div class=\\"title\\">black ink</div>\\n  </a>\\n  <a href=\\"/collage-paper\\">\\n    <div class=\\"hover-effect soon\\" />\\n    <div class=\\"title\\">collage paper</div>\\n  </a>\\n  <a href=\\"/colorful-foil\\">\\n    <div class=\\"hover-effect soon\\" />\\n    <div class=\\"title\\">colorful foil</div>\\n  </a>\\n  <a href=\\"/colorful-marble\\">\\n    <div class=\\"hover-effect soon\\" />\\n    <div class=\\"title\\">colorful marble</div>\\n  </a>\\n  <a href=\\"/gold foil\\">\\n    <div class=\\"hover-effect soon\\" />\\n    <div class=\\"title\\">gold foil</div>\\n  </a>\\n  <a href=\\"/gold-marble\\">\\n    <div class=\\"hover-effect soon\\" />\\n    <div class=\\"title\\">gold marble</div>\\n  </a>\\n  <a href=\\"/gold-paper\\">\\n    <div class=\\"hover-effect soon\\" />\\n    <div class=\\"title\\">gold paper</div>\\n  </a>\\n  <a href=\\"/gradients\\">\\n    <div class=\\"hover-effect soon\\" />\\n    <div class=\\"title\\">gradients</div>\\n  </a>\\n  <a href=\\"/halftone\\">\\n    <div class=\\"hover-effect soon\\" />\\n    <div class=\\"title\\">halftone</div>\\n  </a>\\n  <a href=\\"/holographic\\">\\n    <div class=\\"hover-effect soon\\" />\\n    <div class=\\"title\\">holographic</div>\\n  </a>\\n  <a href=\\"/mixed-media\\">\\n    <div class=\\"hover-effect soon\\" />\\n    <div class=\\"title\\">mixed media</div>\\n  </a>\\n  <a href=\\"/pastel\\">\\n    <div class=\\"hover-effect soon\\" />\\n    <div class=\\"title\\">pastel</div>\\n  </a>\\n  <a href=\\"/pretty-textures\\">\\n    <div class=\\"hover-effect soon\\" />\\n    <div class=\\"title\\">pretty textures</div>\\n  </a>\\n  <a href=\\"/retro\\">\\n    <div class=\\"hover-effect soon\\" />\\n    <div class=\\"title\\">retro</div>\\n  </a>\\n  <a href=\\"/watercolor\\">\\n    <div class=\\"hover-effect watercolor\\" />\\n    <div class=\\"title\\">Watercolor</div>\\n  </a>\\n</div>\\n<br />\\n\\n<style>\\n  .feature-link-group {\\n    display: flex;\\n    flex-wrap: wrap;\\n    margin: 64px auto;\\n    max-width: 960px;\\n    justify-content: center;\\n  }\\n\\n  .hover-effect {\\n    width: 240px;\\n    height: 240px;\\n    margin: auto 32px;\\n    border-radius: 120px;\\n    background-size: contain;\\n  }\\n\\n  .hover-effect:hover {\\n    box-shadow: 0 0 0 16px #fff inset;\\n    transition: all 0.25s;\\n  }\\n\\n  .hover-effect:not(:hover) {\\n    box-shadow: 0 0 0 0px #fff inset;\\n    transition: all 0.25s;\\n  }\\n\\n  .watercolor {\\n    background-image: url(\\"/watercolor.jpg\\");\\n    background-position: center;\\n    background-size: cover;\\n  }\\n\\n  .soon {\\n    background-image: url(\\"/soon.jpg\\");\\n    background-position: center;\\n    background-size: cover;\\n  }\\n\\n  .title {\\n    text-transform: uppercase;\\n    /* color: #6f1f8f; */\\n    text-align: center;\\n    font-size: 12px;\\n    font-weight: 700;\\n    padding-top: 16px;\\n    padding-bottom: 32px;\\n  }\\n\\n  a {\\n    text-decoration: none;\\n    color: inherit;\\n  }\\n</style>\\n"],"names":[],"mappings":"AAsEE,iCAAoB,CAClB,OAAO,CAAE,IAAI,CACb,SAAS,CAAE,IAAI,CACf,MAAM,CAAE,IAAI,CAAC,IAAI,CACjB,SAAS,CAAE,KAAK,CAChB,eAAe,CAAE,MACnB,CAEA,2BAAc,CACZ,KAAK,CAAE,KAAK,CACZ,MAAM,CAAE,KAAK,CACb,MAAM,CAAE,IAAI,CAAC,IAAI,CACjB,aAAa,CAAE,KAAK,CACpB,eAAe,CAAE,OACnB,CAEA,2BAAa,MAAO,CAClB,UAAU,CAAE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,IAAI,CAAC,IAAI,CAAC,KAAK,CACjC,UAAU,CAAE,GAAG,CAAC,KAClB,CAEA,2BAAa,KAAK,MAAM,CAAE,CACxB,UAAU,CAAE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,GAAG,CAAC,IAAI,CAAC,KAAK,CAChC,UAAU,CAAE,GAAG,CAAC,KAClB,CAEA,yBAAY,CACV,gBAAgB,CAAE,sBAAsB,CACxC,mBAAmB,CAAE,MAAM,CAC3B,eAAe,CAAE,KACnB,CAEA,mBAAM,CACJ,gBAAgB,CAAE,gBAAgB,CAClC,mBAAmB,CAAE,MAAM,CAC3B,eAAe,CAAE,KACnB,CAEA,oBAAO,CACL,cAAc,CAAE,SAAS,CAEzB,UAAU,CAAE,MAAM,CAClB,SAAS,CAAE,IAAI,CACf,WAAW,CAAE,GAAG,CAChB,WAAW,CAAE,IAAI,CACjB,cAAc,CAAE,IAClB,CAEA,eAAE,CACA,eAAe,CAAE,IAAI,CACrB,KAAK,CAAE,OACT"}'
+      code: '.feature-link-group.svelte-1is5ecz{display:flex;flex-wrap:wrap;margin:64px auto;max-width:960px;justify-content:center}.hover-effect.svelte-1is5ecz{width:240px;height:240px;margin:auto 32px;border-radius:120px;background-size:contain}.hover-effect.svelte-1is5ecz:hover{box-shadow:0 0 0 16px #fff inset;transition:all 0.25s}.hover-effect.svelte-1is5ecz:not(:hover){box-shadow:0 0 0 0px #fff inset;transition:all 0.25s}.watercolor.svelte-1is5ecz{background-image:url("/watercolor.jpg");background-position:center;background-size:cover}.pastel.svelte-1is5ecz{background-image:url("/pastel.jpg");background-position:center;background-size:cover}.acrylic.svelte-1is5ecz{background-image:url("/acrylic.jpg");background-position:center;background-size:cover}.soon.svelte-1is5ecz{background-image:url("/soon.jpg");background-position:center;background-size:cover}.title.svelte-1is5ecz{text-transform:uppercase;text-align:center;font-size:12px;font-weight:700;padding-top:16px;padding-bottom:32px}a.svelte-1is5ecz{text-decoration:none;color:inherit}',
+      map: '{"version":3,"file":"themes.svelte","sources":["themes.svelte"],"sourcesContent":["<h1>Flair Texture Library</h1>\\n<div class=\\"feature-link-group\\">\\n  <a href=\\"/acrylic\\">\\n    <div class=\\"hover-effect acrylic\\" />\\n    <div class=\\"title\\">acrylic</div>\\n  </a>\\n  <a href=\\"/black-ink\\">\\n    <div class=\\"hover-effect soon\\" />\\n    <div class=\\"title\\">black ink</div>\\n  </a>\\n  <!-- <a href=\\"/collage-paper\\">\\n    <div class=\\"hover-effect soon\\" />\\n    <div class=\\"title\\">collage paper</div>\\n  </a> -->\\n  <a href=\\"/colorful-foil\\">\\n    <div class=\\"hover-effect soon\\" />\\n    <div class=\\"title\\">colorful foil</div>\\n  </a>\\n  <a href=\\"/colorful-marble\\">\\n    <div class=\\"hover-effect soon\\" />\\n    <div class=\\"title\\">colorful marble</div>\\n  </a>\\n  <!-- <a href=\\"/gold foil\\">\\n    <div class=\\"hover-effect soon\\" />\\n    <div class=\\"title\\">gold foil</div>\\n  </a> -->\\n  <a href=\\"/gold-marble\\">\\n    <div class=\\"hover-effect soon\\" />\\n    <div class=\\"title\\">gold marble</div>\\n  </a>\\n  <a href=\\"/gold-paper\\">\\n    <div class=\\"hover-effect soon\\" />\\n    <div class=\\"title\\">gold paper</div>\\n  </a>\\n  <a href=\\"/gradients\\">\\n    <div class=\\"hover-effect soon\\" />\\n    <div class=\\"title\\">gradients</div>\\n  </a>\\n  <!-- <a href=\\"/halftone\\">\\n    <div class=\\"hover-effect soon\\" />\\n    <div class=\\"title\\">halftone</div>\\n  </a> -->\\n  <a href=\\"/holographic\\">\\n    <div class=\\"hover-effect soon\\" />\\n    <div class=\\"title\\">holographic</div>\\n  </a>\\n  <!-- <a href=\\"/mixed-media\\">\\n    <div class=\\"hover-effect soon\\" />\\n    <div class=\\"title\\">mixed media</div>\\n  </a> -->\\n  <a href=\\"/pastel\\">\\n    <div class=\\"hover-effect pastel\\" />\\n    <div class=\\"title\\">pastel</div>\\n  </a>\\n  <a href=\\"/pretty-textures\\">\\n    <div class=\\"hover-effect soon\\" />\\n    <div class=\\"title\\">pretty textures</div>\\n  </a>\\n  <!-- <a href=\\"/retro\\">\\n    <div class=\\"hover-effect soon\\" />\\n    <div class=\\"title\\">retro</div>\\n  </a> -->\\n  <a href=\\"/watercolor\\">\\n    <div class=\\"hover-effect watercolor\\" />\\n    <div class=\\"title\\">Watercolor</div>\\n  </a>\\n</div>\\n<br />\\n\\n<style>\\n  .feature-link-group {\\n    display: flex;\\n    flex-wrap: wrap;\\n    margin: 64px auto;\\n    max-width: 960px;\\n    justify-content: center;\\n  }\\n\\n  .hover-effect {\\n    width: 240px;\\n    height: 240px;\\n    margin: auto 32px;\\n    border-radius: 120px;\\n    background-size: contain;\\n  }\\n\\n  .hover-effect:hover {\\n    box-shadow: 0 0 0 16px #fff inset;\\n    transition: all 0.25s;\\n  }\\n\\n  .hover-effect:not(:hover) {\\n    box-shadow: 0 0 0 0px #fff inset;\\n    transition: all 0.25s;\\n  }\\n\\n  .watercolor {\\n    background-image: url(\\"/watercolor.jpg\\");\\n    background-position: center;\\n    background-size: cover;\\n  }\\n\\n  .pastel {\\n    background-image: url(\\"/pastel.jpg\\");\\n    background-position: center;\\n    background-size: cover;\\n  }\\n\\n\\n  .acrylic {\\n    background-image: url(\\"/acrylic.jpg\\");\\n    background-position: center;\\n    background-size: cover;\\n  }\\n\\n  .soon {\\n    background-image: url(\\"/soon.jpg\\");\\n    background-position: center;\\n    background-size: cover;\\n  }\\n\\n  .title {\\n    text-transform: uppercase;\\n    /* color: #6f1f8f; */\\n    text-align: center;\\n    font-size: 12px;\\n    font-weight: 700;\\n    padding-top: 16px;\\n    padding-bottom: 32px;\\n  }\\n\\n  a {\\n    text-decoration: none;\\n    color: inherit;\\n  }\\n</style>\\n"],"names":[],"mappings":"AAsEE,kCAAoB,CAClB,OAAO,CAAE,IAAI,CACb,SAAS,CAAE,IAAI,CACf,MAAM,CAAE,IAAI,CAAC,IAAI,CACjB,SAAS,CAAE,KAAK,CAChB,eAAe,CAAE,MACnB,CAEA,4BAAc,CACZ,KAAK,CAAE,KAAK,CACZ,MAAM,CAAE,KAAK,CACb,MAAM,CAAE,IAAI,CAAC,IAAI,CACjB,aAAa,CAAE,KAAK,CACpB,eAAe,CAAE,OACnB,CAEA,4BAAa,MAAO,CAClB,UAAU,CAAE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,IAAI,CAAC,IAAI,CAAC,KAAK,CACjC,UAAU,CAAE,GAAG,CAAC,KAClB,CAEA,4BAAa,KAAK,MAAM,CAAE,CACxB,UAAU,CAAE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,GAAG,CAAC,IAAI,CAAC,KAAK,CAChC,UAAU,CAAE,GAAG,CAAC,KAClB,CAEA,0BAAY,CACV,gBAAgB,CAAE,sBAAsB,CACxC,mBAAmB,CAAE,MAAM,CAC3B,eAAe,CAAE,KACnB,CAEA,sBAAQ,CACN,gBAAgB,CAAE,kBAAkB,CACpC,mBAAmB,CAAE,MAAM,CAC3B,eAAe,CAAE,KACnB,CAGA,uBAAS,CACP,gBAAgB,CAAE,mBAAmB,CACrC,mBAAmB,CAAE,MAAM,CAC3B,eAAe,CAAE,KACnB,CAEA,oBAAM,CACJ,gBAAgB,CAAE,gBAAgB,CAClC,mBAAmB,CAAE,MAAM,CAC3B,eAAe,CAAE,KACnB,CAEA,qBAAO,CACL,cAAc,CAAE,SAAS,CAEzB,UAAU,CAAE,MAAM,CAClB,SAAS,CAAE,IAAI,CACf,WAAW,CAAE,GAAG,CAChB,WAAW,CAAE,IAAI,CACjB,cAAc,CAAE,IAClB,CAEA,gBAAE,CACA,eAAe,CAAE,IAAI,CACrB,KAAK,CAAE,OACT"}'
     };
     Themes = create_ssr_component(($$result, $$props, $$bindings, slots) => {
       $$result.css.add(css2);
-      return `<h1 data-svelte-h="svelte-6doji4">Flair Texture Library</h1> <div class="feature-link-group svelte-fz0v67" data-svelte-h="svelte-1s526ib"><a href="/acrylic" class="svelte-fz0v67"><div class="hover-effect soon svelte-fz0v67"></div> <div class="title svelte-fz0v67">acrylic</div></a> <a href="/black-ink" class="svelte-fz0v67"><div class="hover-effect soon svelte-fz0v67"></div> <div class="title svelte-fz0v67">black ink</div></a> <a href="/collage-paper" class="svelte-fz0v67"><div class="hover-effect soon svelte-fz0v67"></div> <div class="title svelte-fz0v67">collage paper</div></a> <a href="/colorful-foil" class="svelte-fz0v67"><div class="hover-effect soon svelte-fz0v67"></div> <div class="title svelte-fz0v67">colorful foil</div></a> <a href="/colorful-marble" class="svelte-fz0v67"><div class="hover-effect soon svelte-fz0v67"></div> <div class="title svelte-fz0v67">colorful marble</div></a> <a href="/gold foil" class="svelte-fz0v67"><div class="hover-effect soon svelte-fz0v67"></div> <div class="title svelte-fz0v67">gold foil</div></a> <a href="/gold-marble" class="svelte-fz0v67"><div class="hover-effect soon svelte-fz0v67"></div> <div class="title svelte-fz0v67">gold marble</div></a> <a href="/gold-paper" class="svelte-fz0v67"><div class="hover-effect soon svelte-fz0v67"></div> <div class="title svelte-fz0v67">gold paper</div></a> <a href="/gradients" class="svelte-fz0v67"><div class="hover-effect soon svelte-fz0v67"></div> <div class="title svelte-fz0v67">gradients</div></a> <a href="/halftone" class="svelte-fz0v67"><div class="hover-effect soon svelte-fz0v67"></div> <div class="title svelte-fz0v67">halftone</div></a> <a href="/holographic" class="svelte-fz0v67"><div class="hover-effect soon svelte-fz0v67"></div> <div class="title svelte-fz0v67">holographic</div></a> <a href="/mixed-media" class="svelte-fz0v67"><div class="hover-effect soon svelte-fz0v67"></div> <div class="title svelte-fz0v67">mixed media</div></a> <a href="/pastel" class="svelte-fz0v67"><div class="hover-effect soon svelte-fz0v67"></div> <div class="title svelte-fz0v67">pastel</div></a> <a href="/pretty-textures" class="svelte-fz0v67"><div class="hover-effect soon svelte-fz0v67"></div> <div class="title svelte-fz0v67">pretty textures</div></a> <a href="/retro" class="svelte-fz0v67"><div class="hover-effect soon svelte-fz0v67"></div> <div class="title svelte-fz0v67">retro</div></a> <a href="/watercolor" class="svelte-fz0v67"><div class="hover-effect watercolor svelte-fz0v67"></div> <div class="title svelte-fz0v67">Watercolor</div></a></div> <br>`;
+      return `<h1 data-svelte-h="svelte-6doji4">Flair Texture Library</h1> <div class="feature-link-group svelte-1is5ecz" data-svelte-h="svelte-26x65c"><a href="/acrylic" class="svelte-1is5ecz"><div class="hover-effect acrylic svelte-1is5ecz"></div> <div class="title svelte-1is5ecz">acrylic</div></a> <a href="/black-ink" class="svelte-1is5ecz"><div class="hover-effect soon svelte-1is5ecz"></div> <div class="title svelte-1is5ecz">black ink</div></a>  <a href="/colorful-foil" class="svelte-1is5ecz"><div class="hover-effect soon svelte-1is5ecz"></div> <div class="title svelte-1is5ecz">colorful foil</div></a> <a href="/colorful-marble" class="svelte-1is5ecz"><div class="hover-effect soon svelte-1is5ecz"></div> <div class="title svelte-1is5ecz">colorful marble</div></a>  <a href="/gold-marble" class="svelte-1is5ecz"><div class="hover-effect soon svelte-1is5ecz"></div> <div class="title svelte-1is5ecz">gold marble</div></a> <a href="/gold-paper" class="svelte-1is5ecz"><div class="hover-effect soon svelte-1is5ecz"></div> <div class="title svelte-1is5ecz">gold paper</div></a> <a href="/gradients" class="svelte-1is5ecz"><div class="hover-effect soon svelte-1is5ecz"></div> <div class="title svelte-1is5ecz">gradients</div></a>  <a href="/holographic" class="svelte-1is5ecz"><div class="hover-effect soon svelte-1is5ecz"></div> <div class="title svelte-1is5ecz">holographic</div></a>  <a href="/pastel" class="svelte-1is5ecz"><div class="hover-effect pastel svelte-1is5ecz"></div> <div class="title svelte-1is5ecz">pastel</div></a> <a href="/pretty-textures" class="svelte-1is5ecz"><div class="hover-effect soon svelte-1is5ecz"></div> <div class="title svelte-1is5ecz">pretty textures</div></a>  <a href="/watercolor" class="svelte-1is5ecz"><div class="hover-effect watercolor svelte-1is5ecz"></div> <div class="title svelte-1is5ecz">Watercolor</div></a></div> <br>`;
     });
   }
 });
@@ -1430,8 +1430,8 @@ var init__3 = __esm({
     init_shims();
     index3 = 2;
     component3 = async () => component_cache3 ??= (await Promise.resolve().then(() => (init_page_svelte(), page_svelte_exports))).default;
-    imports3 = ["_app/immutable/nodes/2.xHPRpPjf.js", "_app/immutable/chunks/scheduler.RU1Bb8xN.js", "_app/immutable/chunks/index.CpNSVWel.js", "_app/immutable/chunks/themes.U5MBeJ7B.js"];
-    stylesheets3 = ["_app/immutable/assets/themes.B0qEYqdj.css"];
+    imports3 = ["_app/immutable/nodes/2.G8nM10n8.js", "_app/immutable/chunks/scheduler.RU1Bb8xN.js", "_app/immutable/chunks/index.CpNSVWel.js", "_app/immutable/chunks/themes.D9XIMp5L.js"];
+    stylesheets3 = ["_app/immutable/assets/themes.DCGCe2HS.css"];
     fonts3 = [];
   }
 });
@@ -1448,7 +1448,7 @@ var init_page_svelte2 = __esm({
     init_ssr();
     init_themes();
     appLink = "";
-    backgroundImageName = "";
+    backgroundImageName = "acrylicBig";
     Page2 = create_ssr_component(($$result, $$props, $$bindings, slots) => {
       return ` ${validate_component(Background, "Background").$$render($$result, { path: backgroundImageName }, {}, {})}  <div class="page-container"> ${validate_component(Header, "Header").$$render($$result, {}, {}, {})} ${validate_component(AppStoreLink, "AppStoreLink").$$render($$result, { link: appLink }, {}, {})}  ${validate_component(Cards, "Cards").$$render($$result, {}, {}, {})}  ${validate_component(Themes, "Themes").$$render($$result, {}, {}, {})}  ${validate_component(AppStoreLink, "AppStoreLink").$$render($$result, {}, {}, {})} ${validate_component(Footer, "Footer").$$render($$result, {}, {}, {})}</div>`;
     });
@@ -1470,8 +1470,8 @@ var init__4 = __esm({
     init_shims();
     index4 = 3;
     component4 = async () => component_cache4 ??= (await Promise.resolve().then(() => (init_page_svelte2(), page_svelte_exports2))).default;
-    imports4 = ["_app/immutable/nodes/3.qFnn6nuU.js", "_app/immutable/chunks/scheduler.RU1Bb8xN.js", "_app/immutable/chunks/index.CpNSVWel.js", "_app/immutable/chunks/themes.U5MBeJ7B.js"];
-    stylesheets4 = ["_app/immutable/assets/themes.B0qEYqdj.css"];
+    imports4 = ["_app/immutable/nodes/3.gIGoaj8P.js", "_app/immutable/chunks/scheduler.RU1Bb8xN.js", "_app/immutable/chunks/index.CpNSVWel.js", "_app/immutable/chunks/themes.D9XIMp5L.js"];
+    stylesheets4 = ["_app/immutable/assets/themes.DCGCe2HS.css"];
     fonts4 = [];
   }
 });
@@ -1510,8 +1510,8 @@ var init__5 = __esm({
     init_shims();
     index5 = 4;
     component5 = async () => component_cache5 ??= (await Promise.resolve().then(() => (init_page_svelte3(), page_svelte_exports3))).default;
-    imports5 = ["_app/immutable/nodes/4.qFnn6nuU.js", "_app/immutable/chunks/scheduler.RU1Bb8xN.js", "_app/immutable/chunks/index.CpNSVWel.js", "_app/immutable/chunks/themes.U5MBeJ7B.js"];
-    stylesheets5 = ["_app/immutable/assets/themes.B0qEYqdj.css"];
+    imports5 = ["_app/immutable/nodes/4.CMMHTMxs.js", "_app/immutable/chunks/scheduler.RU1Bb8xN.js", "_app/immutable/chunks/index.CpNSVWel.js", "_app/immutable/chunks/themes.D9XIMp5L.js"];
+    stylesheets5 = ["_app/immutable/assets/themes.DCGCe2HS.css"];
     fonts5 = [];
   }
 });
@@ -1550,8 +1550,8 @@ var init__6 = __esm({
     init_shims();
     index6 = 5;
     component6 = async () => component_cache6 ??= (await Promise.resolve().then(() => (init_page_svelte4(), page_svelte_exports4))).default;
-    imports6 = ["_app/immutable/nodes/5.qFnn6nuU.js", "_app/immutable/chunks/scheduler.RU1Bb8xN.js", "_app/immutable/chunks/index.CpNSVWel.js", "_app/immutable/chunks/themes.U5MBeJ7B.js"];
-    stylesheets6 = ["_app/immutable/assets/themes.B0qEYqdj.css"];
+    imports6 = ["_app/immutable/nodes/5.CMMHTMxs.js", "_app/immutable/chunks/scheduler.RU1Bb8xN.js", "_app/immutable/chunks/index.CpNSVWel.js", "_app/immutable/chunks/themes.D9XIMp5L.js"];
+    stylesheets6 = ["_app/immutable/assets/themes.DCGCe2HS.css"];
     fonts6 = [];
   }
 });
@@ -1590,8 +1590,8 @@ var init__7 = __esm({
     init_shims();
     index7 = 6;
     component7 = async () => component_cache7 ??= (await Promise.resolve().then(() => (init_page_svelte5(), page_svelte_exports5))).default;
-    imports7 = ["_app/immutable/nodes/6.qFnn6nuU.js", "_app/immutable/chunks/scheduler.RU1Bb8xN.js", "_app/immutable/chunks/index.CpNSVWel.js", "_app/immutable/chunks/themes.U5MBeJ7B.js"];
-    stylesheets7 = ["_app/immutable/assets/themes.B0qEYqdj.css"];
+    imports7 = ["_app/immutable/nodes/6.CMMHTMxs.js", "_app/immutable/chunks/scheduler.RU1Bb8xN.js", "_app/immutable/chunks/index.CpNSVWel.js", "_app/immutable/chunks/themes.D9XIMp5L.js"];
+    stylesheets7 = ["_app/immutable/assets/themes.DCGCe2HS.css"];
     fonts7 = [];
   }
 });
@@ -1630,8 +1630,8 @@ var init__8 = __esm({
     init_shims();
     index8 = 7;
     component8 = async () => component_cache8 ??= (await Promise.resolve().then(() => (init_page_svelte6(), page_svelte_exports6))).default;
-    imports8 = ["_app/immutable/nodes/7.qFnn6nuU.js", "_app/immutable/chunks/scheduler.RU1Bb8xN.js", "_app/immutable/chunks/index.CpNSVWel.js", "_app/immutable/chunks/themes.U5MBeJ7B.js"];
-    stylesheets8 = ["_app/immutable/assets/themes.B0qEYqdj.css"];
+    imports8 = ["_app/immutable/nodes/7.CMMHTMxs.js", "_app/immutable/chunks/scheduler.RU1Bb8xN.js", "_app/immutable/chunks/index.CpNSVWel.js", "_app/immutable/chunks/themes.D9XIMp5L.js"];
+    stylesheets8 = ["_app/immutable/assets/themes.DCGCe2HS.css"];
     fonts8 = [];
   }
 });
@@ -1670,8 +1670,8 @@ var init__9 = __esm({
     init_shims();
     index9 = 8;
     component9 = async () => component_cache9 ??= (await Promise.resolve().then(() => (init_page_svelte7(), page_svelte_exports7))).default;
-    imports9 = ["_app/immutable/nodes/8.qFnn6nuU.js", "_app/immutable/chunks/scheduler.RU1Bb8xN.js", "_app/immutable/chunks/index.CpNSVWel.js", "_app/immutable/chunks/themes.U5MBeJ7B.js"];
-    stylesheets9 = ["_app/immutable/assets/themes.B0qEYqdj.css"];
+    imports9 = ["_app/immutable/nodes/8.CMMHTMxs.js", "_app/immutable/chunks/scheduler.RU1Bb8xN.js", "_app/immutable/chunks/index.CpNSVWel.js", "_app/immutable/chunks/themes.D9XIMp5L.js"];
+    stylesheets9 = ["_app/immutable/assets/themes.DCGCe2HS.css"];
     fonts9 = [];
   }
 });
@@ -1710,8 +1710,8 @@ var init__10 = __esm({
     init_shims();
     index10 = 9;
     component10 = async () => component_cache10 ??= (await Promise.resolve().then(() => (init_page_svelte8(), page_svelte_exports8))).default;
-    imports10 = ["_app/immutable/nodes/9.qFnn6nuU.js", "_app/immutable/chunks/scheduler.RU1Bb8xN.js", "_app/immutable/chunks/index.CpNSVWel.js", "_app/immutable/chunks/themes.U5MBeJ7B.js"];
-    stylesheets10 = ["_app/immutable/assets/themes.B0qEYqdj.css"];
+    imports10 = ["_app/immutable/nodes/9.CMMHTMxs.js", "_app/immutable/chunks/scheduler.RU1Bb8xN.js", "_app/immutable/chunks/index.CpNSVWel.js", "_app/immutable/chunks/themes.D9XIMp5L.js"];
+    stylesheets10 = ["_app/immutable/assets/themes.DCGCe2HS.css"];
     fonts10 = [];
   }
 });
@@ -1750,8 +1750,8 @@ var init__11 = __esm({
     init_shims();
     index11 = 10;
     component11 = async () => component_cache11 ??= (await Promise.resolve().then(() => (init_page_svelte9(), page_svelte_exports9))).default;
-    imports11 = ["_app/immutable/nodes/10.qFnn6nuU.js", "_app/immutable/chunks/scheduler.RU1Bb8xN.js", "_app/immutable/chunks/index.CpNSVWel.js", "_app/immutable/chunks/themes.U5MBeJ7B.js"];
-    stylesheets11 = ["_app/immutable/assets/themes.B0qEYqdj.css"];
+    imports11 = ["_app/immutable/nodes/10.CMMHTMxs.js", "_app/immutable/chunks/scheduler.RU1Bb8xN.js", "_app/immutable/chunks/index.CpNSVWel.js", "_app/immutable/chunks/themes.D9XIMp5L.js"];
+    stylesheets11 = ["_app/immutable/assets/themes.DCGCe2HS.css"];
     fonts11 = [];
   }
 });
@@ -1790,8 +1790,8 @@ var init__12 = __esm({
     init_shims();
     index12 = 11;
     component12 = async () => component_cache12 ??= (await Promise.resolve().then(() => (init_page_svelte10(), page_svelte_exports10))).default;
-    imports12 = ["_app/immutable/nodes/11.qFnn6nuU.js", "_app/immutable/chunks/scheduler.RU1Bb8xN.js", "_app/immutable/chunks/index.CpNSVWel.js", "_app/immutable/chunks/themes.U5MBeJ7B.js"];
-    stylesheets12 = ["_app/immutable/assets/themes.B0qEYqdj.css"];
+    imports12 = ["_app/immutable/nodes/11.CMMHTMxs.js", "_app/immutable/chunks/scheduler.RU1Bb8xN.js", "_app/immutable/chunks/index.CpNSVWel.js", "_app/immutable/chunks/themes.D9XIMp5L.js"];
+    stylesheets12 = ["_app/immutable/assets/themes.DCGCe2HS.css"];
     fonts12 = [];
   }
 });
@@ -1830,8 +1830,8 @@ var init__13 = __esm({
     init_shims();
     index13 = 12;
     component13 = async () => component_cache13 ??= (await Promise.resolve().then(() => (init_page_svelte11(), page_svelte_exports11))).default;
-    imports13 = ["_app/immutable/nodes/12.qFnn6nuU.js", "_app/immutable/chunks/scheduler.RU1Bb8xN.js", "_app/immutable/chunks/index.CpNSVWel.js", "_app/immutable/chunks/themes.U5MBeJ7B.js"];
-    stylesheets13 = ["_app/immutable/assets/themes.B0qEYqdj.css"];
+    imports13 = ["_app/immutable/nodes/12.CMMHTMxs.js", "_app/immutable/chunks/scheduler.RU1Bb8xN.js", "_app/immutable/chunks/index.CpNSVWel.js", "_app/immutable/chunks/themes.D9XIMp5L.js"];
+    stylesheets13 = ["_app/immutable/assets/themes.DCGCe2HS.css"];
     fonts13 = [];
   }
 });
@@ -1870,8 +1870,8 @@ var init__14 = __esm({
     init_shims();
     index14 = 13;
     component14 = async () => component_cache14 ??= (await Promise.resolve().then(() => (init_page_svelte12(), page_svelte_exports12))).default;
-    imports14 = ["_app/immutable/nodes/13.qFnn6nuU.js", "_app/immutable/chunks/scheduler.RU1Bb8xN.js", "_app/immutable/chunks/index.CpNSVWel.js", "_app/immutable/chunks/themes.U5MBeJ7B.js"];
-    stylesheets14 = ["_app/immutable/assets/themes.B0qEYqdj.css"];
+    imports14 = ["_app/immutable/nodes/13.CMMHTMxs.js", "_app/immutable/chunks/scheduler.RU1Bb8xN.js", "_app/immutable/chunks/index.CpNSVWel.js", "_app/immutable/chunks/themes.D9XIMp5L.js"];
+    stylesheets14 = ["_app/immutable/assets/themes.DCGCe2HS.css"];
     fonts14 = [];
   }
 });
@@ -1910,8 +1910,8 @@ var init__15 = __esm({
     init_shims();
     index15 = 14;
     component15 = async () => component_cache15 ??= (await Promise.resolve().then(() => (init_page_svelte13(), page_svelte_exports13))).default;
-    imports15 = ["_app/immutable/nodes/14.qFnn6nuU.js", "_app/immutable/chunks/scheduler.RU1Bb8xN.js", "_app/immutable/chunks/index.CpNSVWel.js", "_app/immutable/chunks/themes.U5MBeJ7B.js"];
-    stylesheets15 = ["_app/immutable/assets/themes.B0qEYqdj.css"];
+    imports15 = ["_app/immutable/nodes/14.CMMHTMxs.js", "_app/immutable/chunks/scheduler.RU1Bb8xN.js", "_app/immutable/chunks/index.CpNSVWel.js", "_app/immutable/chunks/themes.D9XIMp5L.js"];
+    stylesheets15 = ["_app/immutable/assets/themes.DCGCe2HS.css"];
     fonts15 = [];
   }
 });
@@ -1950,8 +1950,8 @@ var init__16 = __esm({
     init_shims();
     index16 = 15;
     component16 = async () => component_cache16 ??= (await Promise.resolve().then(() => (init_page_svelte14(), page_svelte_exports14))).default;
-    imports16 = ["_app/immutable/nodes/15.qFnn6nuU.js", "_app/immutable/chunks/scheduler.RU1Bb8xN.js", "_app/immutable/chunks/index.CpNSVWel.js", "_app/immutable/chunks/themes.U5MBeJ7B.js"];
-    stylesheets16 = ["_app/immutable/assets/themes.B0qEYqdj.css"];
+    imports16 = ["_app/immutable/nodes/15.CMMHTMxs.js", "_app/immutable/chunks/scheduler.RU1Bb8xN.js", "_app/immutable/chunks/index.CpNSVWel.js", "_app/immutable/chunks/themes.D9XIMp5L.js"];
+    stylesheets16 = ["_app/immutable/assets/themes.DCGCe2HS.css"];
     fonts16 = [];
   }
 });
@@ -1968,7 +1968,7 @@ var init_page_svelte15 = __esm({
     init_ssr();
     init_themes();
     appLink14 = "";
-    backgroundImageName14 = "";
+    backgroundImageName14 = "pastelBig";
     Page15 = create_ssr_component(($$result, $$props, $$bindings, slots) => {
       return ` ${validate_component(Background, "Background").$$render($$result, { path: backgroundImageName14 }, {}, {})}  <div class="page-container"> ${validate_component(Header, "Header").$$render($$result, {}, {}, {})} ${validate_component(AppStoreLink, "AppStoreLink").$$render($$result, { link: appLink14 }, {}, {})}  ${validate_component(Cards, "Cards").$$render($$result, {}, {}, {})}  ${validate_component(Themes, "Themes").$$render($$result, {}, {}, {})}  ${validate_component(AppStoreLink, "AppStoreLink").$$render($$result, {}, {}, {})} ${validate_component(Footer, "Footer").$$render($$result, {}, {}, {})}</div>`;
     });
@@ -1990,8 +1990,8 @@ var init__17 = __esm({
     init_shims();
     index17 = 16;
     component17 = async () => component_cache17 ??= (await Promise.resolve().then(() => (init_page_svelte15(), page_svelte_exports15))).default;
-    imports17 = ["_app/immutable/nodes/16.qFnn6nuU.js", "_app/immutable/chunks/scheduler.RU1Bb8xN.js", "_app/immutable/chunks/index.CpNSVWel.js", "_app/immutable/chunks/themes.U5MBeJ7B.js"];
-    stylesheets17 = ["_app/immutable/assets/themes.B0qEYqdj.css"];
+    imports17 = ["_app/immutable/nodes/16.C5_frfLg.js", "_app/immutable/chunks/scheduler.RU1Bb8xN.js", "_app/immutable/chunks/index.CpNSVWel.js", "_app/immutable/chunks/themes.D9XIMp5L.js"];
+    stylesheets17 = ["_app/immutable/assets/themes.DCGCe2HS.css"];
     fonts17 = [];
   }
 });
@@ -2030,8 +2030,8 @@ var init__18 = __esm({
     init_shims();
     index18 = 17;
     component18 = async () => component_cache18 ??= (await Promise.resolve().then(() => (init_page_svelte16(), page_svelte_exports16))).default;
-    imports18 = ["_app/immutable/nodes/17.qFnn6nuU.js", "_app/immutable/chunks/scheduler.RU1Bb8xN.js", "_app/immutable/chunks/index.CpNSVWel.js", "_app/immutable/chunks/themes.U5MBeJ7B.js"];
-    stylesheets18 = ["_app/immutable/assets/themes.B0qEYqdj.css"];
+    imports18 = ["_app/immutable/nodes/17.CMMHTMxs.js", "_app/immutable/chunks/scheduler.RU1Bb8xN.js", "_app/immutable/chunks/index.CpNSVWel.js", "_app/immutable/chunks/themes.D9XIMp5L.js"];
+    stylesheets18 = ["_app/immutable/assets/themes.DCGCe2HS.css"];
     fonts18 = [];
   }
 });
@@ -2070,8 +2070,8 @@ var init__19 = __esm({
     init_shims();
     index19 = 18;
     component19 = async () => component_cache19 ??= (await Promise.resolve().then(() => (init_page_svelte17(), page_svelte_exports17))).default;
-    imports19 = ["_app/immutable/nodes/18.qFnn6nuU.js", "_app/immutable/chunks/scheduler.RU1Bb8xN.js", "_app/immutable/chunks/index.CpNSVWel.js", "_app/immutable/chunks/themes.U5MBeJ7B.js"];
-    stylesheets19 = ["_app/immutable/assets/themes.B0qEYqdj.css"];
+    imports19 = ["_app/immutable/nodes/18.CMMHTMxs.js", "_app/immutable/chunks/scheduler.RU1Bb8xN.js", "_app/immutable/chunks/index.CpNSVWel.js", "_app/immutable/chunks/themes.D9XIMp5L.js"];
+    stylesheets19 = ["_app/immutable/assets/themes.DCGCe2HS.css"];
     fonts19 = [];
   }
 });
@@ -2110,8 +2110,8 @@ var init__20 = __esm({
     init_shims();
     index20 = 19;
     component20 = async () => component_cache20 ??= (await Promise.resolve().then(() => (init_page_svelte18(), page_svelte_exports18))).default;
-    imports20 = ["_app/immutable/nodes/19.qFnn6nuU.js", "_app/immutable/chunks/scheduler.RU1Bb8xN.js", "_app/immutable/chunks/index.CpNSVWel.js", "_app/immutable/chunks/themes.U5MBeJ7B.js"];
-    stylesheets20 = ["_app/immutable/assets/themes.B0qEYqdj.css"];
+    imports20 = ["_app/immutable/nodes/19.CMMHTMxs.js", "_app/immutable/chunks/scheduler.RU1Bb8xN.js", "_app/immutable/chunks/index.CpNSVWel.js", "_app/immutable/chunks/themes.D9XIMp5L.js"];
+    stylesheets20 = ["_app/immutable/assets/themes.DCGCe2HS.css"];
     fonts20 = [];
   }
 });
@@ -2953,7 +2953,7 @@ var init_page_svelte20 = __esm({
     init_ssr();
     init_themes();
     appLink18 = "";
-    backgroundImageName18 = "watercolor";
+    backgroundImageName18 = "watercolorBig";
     Page20 = create_ssr_component(($$result, $$props, $$bindings, slots) => {
       return ` ${validate_component(Background, "Background").$$render($$result, { path: backgroundImageName18 }, {}, {})}  <div class="page-container"> ${validate_component(Header, "Header").$$render($$result, {}, {}, {})} ${validate_component(AppStoreLink, "AppStoreLink").$$render($$result, { link: appLink18 }, {}, {})}  ${validate_component(Cards, "Cards").$$render($$result, {}, {}, {})}  ${validate_component(Themes, "Themes").$$render($$result, {}, {}, {})}  ${validate_component(AppStoreLink, "AppStoreLink").$$render($$result, {}, {}, {})} ${validate_component(Footer, "Footer").$$render($$result, {}, {}, {})}</div>`;
     });
@@ -2975,8 +2975,8 @@ var init__22 = __esm({
     init_shims();
     index22 = 21;
     component22 = async () => component_cache22 ??= (await Promise.resolve().then(() => (init_page_svelte20(), page_svelte_exports20))).default;
-    imports22 = ["_app/immutable/nodes/21.C9hfsZ-6.js", "_app/immutable/chunks/scheduler.RU1Bb8xN.js", "_app/immutable/chunks/index.CpNSVWel.js", "_app/immutable/chunks/themes.U5MBeJ7B.js"];
-    stylesheets22 = ["_app/immutable/assets/themes.B0qEYqdj.css"];
+    imports22 = ["_app/immutable/nodes/21.Dx8weoyz.js", "_app/immutable/chunks/scheduler.RU1Bb8xN.js", "_app/immutable/chunks/index.CpNSVWel.js", "_app/immutable/chunks/themes.D9XIMp5L.js"];
+    stylesheets22 = ["_app/immutable/assets/themes.DCGCe2HS.css"];
     fonts22 = [];
   }
 });
@@ -3196,7 +3196,7 @@ var options = {
 		<div class="error">
 			<span class="status">` + status + '</span>\n			<div class="message">\n				<h1>' + message + "</h1>\n			</div>\n		</div>\n	</body>\n</html>\n"
   },
-  version_hash: "1l0nucz"
+  version_hash: "lq6paw"
 };
 async function get_hooks() {
   return {};
@@ -6207,10 +6207,10 @@ var manifest = (() => {
   return {
     appDir: "_app",
     appPath: "_app",
-    assets: /* @__PURE__ */ new Set(["12Triangles.svg", "12TrianglesWhite.svg", "Inter-Bold.ttf", "Inter-Regular.ttf", "app-store.png", "favicon.ico", "flairLogo.svg", "flairOutlined.svg", "global.css", "google-play.png", "robots.txt", "rotateTwoFingers.svg", "share-feature.svg", "soon.jpg", "stickers-feature.svg", "themes-feature.svg", "tools-feature.svg", "watercolor.jpg"]),
-    mimeTypes: { ".svg": "image/svg+xml", ".ttf": "font/ttf", ".png": "image/png", ".css": "text/css", ".txt": "text/plain", ".jpg": "image/jpeg" },
+    assets: /* @__PURE__ */ new Set(["12Triangles.svg", "12TrianglesWhite.svg", "Inter-Bold.ttf", "Inter-Regular.ttf", "acrylic.jpg", "acrylicBig.jpg", "app-store.png", "favicon.ico", "flairLogo.svg", "flairOutlined.svg", "global.css", "google-play.png", "pastel.jpg", "pastelBig.jpg", "robots.txt", "rotateTwoFingers.svg", "share-feature.svg", "soon.jpg", "stickers-feature.svg", "themes-feature.svg", "tools-feature.svg", "watercolor.jpg", "watercolorBig.jpg"]),
+    mimeTypes: { ".svg": "image/svg+xml", ".ttf": "font/ttf", ".jpg": "image/jpeg", ".png": "image/png", ".css": "text/css", ".txt": "text/plain" },
     _: {
-      client: { "start": "_app/immutable/entry/start.By6xTqk3.js", "app": "_app/immutable/entry/app.BkoP3Wf_.js", "imports": ["_app/immutable/entry/start.By6xTqk3.js", "_app/immutable/chunks/entry.Ds7n8UB5.js", "_app/immutable/chunks/scheduler.RU1Bb8xN.js", "_app/immutable/entry/app.BkoP3Wf_.js", "_app/immutable/chunks/scheduler.RU1Bb8xN.js", "_app/immutable/chunks/index.CpNSVWel.js"], "stylesheets": [], "fonts": [], "uses_env_dynamic_public": false },
+      client: { "start": "_app/immutable/entry/start.ByI7u28k.js", "app": "_app/immutable/entry/app.oPoMM-Jj.js", "imports": ["_app/immutable/entry/start.ByI7u28k.js", "_app/immutable/chunks/entry.kxjGKvmW.js", "_app/immutable/chunks/scheduler.RU1Bb8xN.js", "_app/immutable/entry/app.oPoMM-Jj.js", "_app/immutable/chunks/scheduler.RU1Bb8xN.js", "_app/immutable/chunks/index.CpNSVWel.js"], "stylesheets": [], "fonts": [], "uses_env_dynamic_public": false },
       nodes: [
         __memo(() => Promise.resolve().then(() => (init__(), __exports))),
         __memo(() => Promise.resolve().then(() => (init__2(), __exports2))),

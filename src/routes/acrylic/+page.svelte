@@ -8,7 +8,7 @@
   import Themes from "../../components/themes.svelte";
 
   const appLink = "";
-  const backgroundImageName = ""; // Blank for purple
+  const backgroundImageName = "acrylicBig"; // Blank for purple
 </script>
 
 <!-- Background -->
