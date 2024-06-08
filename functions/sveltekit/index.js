@@ -1324,7 +1324,7 @@ var init__2 = __esm({
     init_shims();
     index2 = 1;
     component2 = async () => component_cache2 ??= (await Promise.resolve().then(() => (init_error_svelte(), error_svelte_exports))).default;
-    imports2 = ["_app/immutable/nodes/1.HsSI5M7c.js", "_app/immutable/chunks/scheduler.RU1Bb8xN.js", "_app/immutable/chunks/index.CpNSVWel.js", "_app/immutable/chunks/entry.kxjGKvmW.js"];
+    imports2 = ["_app/immutable/nodes/1.1EJcGkJD.js", "_app/immutable/chunks/scheduler.RU1Bb8xN.js", "_app/immutable/chunks/index.CpNSVWel.js", "_app/immutable/chunks/entry.ciMWlbsi.js"];
     stylesheets2 = [];
     fonts2 = [];
   }
@@ -2952,10 +2952,10 @@ var init_page_svelte20 = __esm({
     init_shims();
     init_ssr();
     init_themes();
-    appLink18 = "";
+    appLink18 = "https://apps.apple.com/us/app/flair-watercolor-stickers/id6503091334";
     backgroundImageName18 = "watercolorBig";
     Page20 = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      return ` ${validate_component(Background, "Background").$$render($$result, { path: backgroundImageName18 }, {}, {})}  <div class="page-container"> ${validate_component(Header, "Header").$$render($$result, {}, {}, {})} ${validate_component(AppStoreLink, "AppStoreLink").$$render($$result, { link: appLink18 }, {}, {})}  ${validate_component(Cards, "Cards").$$render($$result, {}, {}, {})}  ${validate_component(Themes, "Themes").$$render($$result, {}, {}, {})}  ${validate_component(AppStoreLink, "AppStoreLink").$$render($$result, {}, {}, {})} ${validate_component(Footer, "Footer").$$render($$result, {}, {}, {})}</div>`;
+      return ` ${validate_component(Background, "Background").$$render($$result, { path: backgroundImageName18 }, {}, {})}  <div class="page-container"> ${validate_component(Header, "Header").$$render($$result, {}, {}, {})} ${validate_component(AppStoreLink, "AppStoreLink").$$render($$result, { link: appLink18 }, {}, {})}  ${validate_component(Cards, "Cards").$$render($$result, {}, {}, {})}  ${validate_component(Themes, "Themes").$$render($$result, {}, {}, {})}  ${validate_component(AppStoreLink, "AppStoreLink").$$render($$result, { link: appLink18 }, {}, {})} ${validate_component(Footer, "Footer").$$render($$result, {}, {}, {})}</div>`;
     });
   }
 });
@@ -2975,7 +2975,7 @@ var init__22 = __esm({
     init_shims();
     index22 = 21;
     component22 = async () => component_cache22 ??= (await Promise.resolve().then(() => (init_page_svelte20(), page_svelte_exports20))).default;
-    imports22 = ["_app/immutable/nodes/21.Dx8weoyz.js", "_app/immutable/chunks/scheduler.RU1Bb8xN.js", "_app/immutable/chunks/index.CpNSVWel.js", "_app/immutable/chunks/themes.D9XIMp5L.js"];
+    imports22 = ["_app/immutable/nodes/21.Dp_eOnWp.js", "_app/immutable/chunks/scheduler.RU1Bb8xN.js", "_app/immutable/chunks/index.CpNSVWel.js", "_app/immutable/chunks/themes.D9XIMp5L.js"];
     stylesheets22 = ["_app/immutable/assets/themes.DCGCe2HS.css"];
     fonts22 = [];
   }
@@ -3196,7 +3196,7 @@ var options = {
 		<div class="error">
 			<span class="status">` + status + '</span>\n			<div class="message">\n				<h1>' + message + "</h1>\n			</div>\n		</div>\n	</body>\n</html>\n"
   },
-  version_hash: "lq6paw"
+  version_hash: "1fr07v8"
 };
 async function get_hooks() {
   return {};
@@ -6210,7 +6210,7 @@ var manifest = (() => {
     assets: /* @__PURE__ */ new Set(["12Triangles.svg", "12TrianglesWhite.svg", "Inter-Bold.ttf", "Inter-Regular.ttf", "acrylic.jpg", "acrylicBig.jpg", "app-store.png", "favicon.ico", "flairLogo.svg", "flairOutlined.svg", "global.css", "google-play.png", "pastel.jpg", "pastelBig.jpg", "robots.txt", "rotateTwoFingers.svg", "share-feature.svg", "soon.jpg", "stickers-feature.svg", "themes-feature.svg", "tools-feature.svg", "watercolor.jpg", "watercolorBig.jpg"]),
     mimeTypes: { ".svg": "image/svg+xml", ".ttf": "font/ttf", ".jpg": "image/jpeg", ".png": "image/png", ".css": "text/css", ".txt": "text/plain" },
     _: {
-      client: { "start": "_app/immutable/entry/start.ByI7u28k.js", "app": "_app/immutable/entry/app.oPoMM-Jj.js", "imports": ["_app/immutable/entry/start.ByI7u28k.js", "_app/immutable/chunks/entry.kxjGKvmW.js", "_app/immutable/chunks/scheduler.RU1Bb8xN.js", "_app/immutable/entry/app.oPoMM-Jj.js", "_app/immutable/chunks/scheduler.RU1Bb8xN.js", "_app/immutable/chunks/index.CpNSVWel.js"], "stylesheets": [], "fonts": [], "uses_env_dynamic_public": false },
+      client: { "start": "_app/immutable/entry/start.CIcdeCLe.js", "app": "_app/immutable/entry/app.CNxK8P4L.js", "imports": ["_app/immutable/entry/start.CIcdeCLe.js", "_app/immutable/chunks/entry.ciMWlbsi.js", "_app/immutable/chunks/scheduler.RU1Bb8xN.js", "_app/immutable/entry/app.CNxK8P4L.js", "_app/immutable/chunks/scheduler.RU1Bb8xN.js", "_app/immutable/chunks/index.CpNSVWel.js"], "stylesheets": [], "fonts": [], "uses_env_dynamic_public": false },
       nodes: [
         __memo(() => Promise.resolve().then(() => (init__(), __exports))),
         __memo(() => Promise.resolve().then(() => (init__2(), __exports2))),
